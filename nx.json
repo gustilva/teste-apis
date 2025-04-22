@@ -1,0 +1,199 @@
+{
+    "$schema": "./node_modules/nx/schemas/nx-schema.json",
+    "npmScope": "spesia",
+    "projects": {
+        "api-gateway": {
+            "architect": {
+                "serve": {
+                    "executor": "@nrwl/nest:build",
+                    "options": {
+                        "watch": true,
+                        "assets": [
+                            {
+                                "glob": "**/*",
+                                "input": "./apps/api-gateway/src/assets",
+                                "output": "assets"
+                            }
+                        ],
+                        "main": "apps/api-gateway/src/main.ts",
+                        "tsConfig": "apps/api-gateway/tsconfig.json"
+                    },
+                    "configurations": {
+                        "production": {
+                            "main": "apps/api-gateway/src/main.ts",
+                            "tsConfig": "apps/api-gateway/tsconfig.json"
+                        }
+                    }
+                }
+            }
+        },
+        "auth": {
+            "architect": {
+                "serve": {
+                    "executor": "@nrwl/nest:build",
+                    "options": {
+                        "watch": true,
+                        "main": "apps/auth/src/main.ts",
+                        "tsConfig": "apps/auth/tsconfig.json"
+                    },
+                    "configurations": {
+                        "production": {
+                            "main": "apps/auth/src/main.ts",
+                            "tsConfig": "apps/auth/tsconfig.json"
+                        }
+                    }
+                }
+            }
+        },
+        "storage": {
+            "architect": {
+                "serve": {
+                    "executor": "@nrwl/nest:build",
+                    "options": {
+                        "watch": true,
+                        "main": "apps/storage/src/main.ts",
+                        "tsConfig": "apps/storage/tsconfig.json"
+                    },
+                    "configurations": {
+                        "production": {
+                            "main": "apps/storage/src/main.ts",
+                            "tsConfig": "apps/storage/tsconfig.json"
+                        }
+                    }
+                }
+            }
+        },
+        "infra": {
+            "architect": {
+                "serve": {
+                    "executor": "@nrwl/nest:build",
+                    "options": {
+                        "watch": true,
+                        "main": "apps/infra/src/main.ts",
+                        "tsConfig": "apps/infra/tsconfig.json"
+                    },
+                    "configurations": {
+                        "production": {
+                            "main": "apps/infra/src/main.ts",
+                            "tsConfig": "apps/infra/tsconfig.json"
+                        }
+                    }
+                }
+            }
+        },
+        "notification": {
+            "architect": {
+                "serve": {
+                    "executor": "@nrwl/nest:build",
+                    "options": {
+                        "watch": true,
+                        "main": "apps/notification/src/main.ts",
+                        "tsConfig": "apps/notification/tsconfig.json"
+                    },
+                    "configurations": {
+                        "production": {
+                            "main": "apps/notification/src/main.ts",
+                            "tsConfig": "apps/notification/tsconfig.json"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "namedInputs": {
+        "default": ["{projectRoot}/**/*", "sharedGlobals"],
+        "production": [
+            "default",
+            "!{projectRoot}/.eslintrc.json",
+            "!{projectRoot}/eslint.config.mjs",
+            "!{projectRoot}/**/?(*.)+(spec|test).[jt]s?(x)?(.snap)",
+            "!{projectRoot}/tsconfig.spec.json",
+            "!{projectRoot}/jest.config.[jt]s",
+            "!{projectRoot}/src/test-setup.[jt]s",
+            "!{projectRoot}/test-setup.[jt]s"
+        ],
+        "sharedGlobals": ["{workspaceRoot}/.github/workflows/ci.yml"]
+    },
+    "nxCloudId": "679bc1162449464187c09bc3",
+    "plugins": [
+        {
+            "plugin": "@nx/webpack/plugin",
+            "options": {
+                "buildTargetName": "build",
+                "serveTargetName": "serve",
+                "previewTargetName": "preview",
+                "buildDepsTargetName": "build-deps",
+                "watchDepsTargetName": "watch-deps"
+            }
+        },
+        {
+            "plugin": "@nx/eslint/plugin",
+            "options": {
+                "targetName": "lint"
+            }
+        },
+        {
+            "plugin": "@nx/playwright/plugin",
+            "options": {
+                "targetName": "e2e"
+            }
+        },
+        {
+            "plugin": "@nx/jest/plugin",
+            "options": {
+                "targetName": "test"
+            },
+            "exclude": [
+                "api-e2e/**/*",
+                "apps/api/auth-e2e/**/*",
+                "libs/auth-e2e/**/*",
+                "apps/api/api-gateway-e2e/**/*",
+                "apps/api/auth-e2e/**/*",
+                "apps/api/infra-e2e/**/*",
+                "apps/api/notification-e2e/**/*"
+            ]
+        },
+        {
+            "plugin": "@nx/vite/plugin",
+            "options": {
+                "buildTargetName": "build",
+                "testTargetName": "test",
+                "serveTargetName": "serve",
+                "devTargetName": "dev",
+                "previewTargetName": "preview",
+                "serveStaticTargetName": "serve-static",
+                "typecheckTargetName": "typecheck",
+                "buildDepsTargetName": "build-deps",
+                "watchDepsTargetName": "watch-deps"
+            }
+        }
+    ],
+    "targetDefaults": {
+        "e2e-ci--**/*": {
+            "dependsOn": ["^build"]
+        },
+        "@nx/js:tsc": {
+            "cache": true,
+            "dependsOn": ["^build"],
+            "inputs": ["production", "^production"]
+        }
+    },
+    "generators": {
+        "@nx/react": {
+            "application": {
+                "babel": true,
+                "style": "scss",
+                "linter": "eslint",
+                "bundler": "webpack"
+            },
+            "component": {
+                "style": "scss"
+            },
+            "library": {
+                "style": "scss",
+                "linter": "eslint",
+                "unitTestRunner": "none"
+            }
+        }
+    }
+}

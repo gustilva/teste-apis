@@ -1,0 +1,52 @@
+{
+    "name": "notification",
+    "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+    "sourceRoot": "apps/api/notification/src",
+    "projectType": "application",
+    "targets": {
+        "build": {
+            "executor": "@nx/webpack:webpack",
+            "outputs": ["{options.outputPath}"],
+            "defaultConfiguration": "production",
+            "options": {
+                "target": "node",
+                "compiler": "tsc",
+                "outputPath": "dist/apps/api/notification",
+                "main": "apps/api/notification/src/main.ts",
+                "tsConfig": "apps/api/notification/tsconfig.app.json",
+                "webpackConfig": "apps/api/notification/webpack.config.js",
+                "assets": [
+                    "apps/api/notification/src/app/templates"
+                ]
+            },
+            "configurations": {
+                "development": {
+                    "optimization": false,
+                    "extractLicenses": false,
+                    "inspection": true
+                },
+                "production": {
+                    "optimization": true,
+                    "extractLicenses": true,
+                    "inspection": false
+                }
+            }
+        },
+        "serve": {
+            "executor": "@nx/js:node",
+            "defaultConfiguration": "development",
+            "options": {
+                "buildTarget": "notification:build",
+                "inspect": false
+            },
+            "configurations": {
+                "development": {
+                    "buildTarget": "notification:build:development"
+                },
+                "production": {
+                    "buildTarget": "notification:build:production"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,564 @@
+
+> nx run api-gateway:serve:development
+
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 74 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (0088fdf02ed8939ab787)
+[36mType-checking in progress...[39m
+[32m[Nest] 29596  - [39m01/04/2025, 16:27:27 [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[1m[31m{"level":"WARN","timestamp":"2025-04-01T19:27:27.841Z","logger":"kafkajs","message":"KafkaJS v2.0.0 switched default partitioner. To retain the same partitioning behavior as in previous versions, create the producer with the option \"createPartitioner: Partitioners.LegacyPartitioner\". See the migration guide at https://kafka.js.org/docs/migration-guide-v2.0.0#producer-new-default-partitioner for details. Silence this warning by setting the environment variable \"KAFKAJS_NO_PARTITIONER_WARNING=1\""}[39m[22m
+[1m[31m[39m[22m
+[32m[Nest] 29596  - [39m01/04/2025, 16:27:27 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +23ms[39m
+[32m[Nest] 29596  - [39m01/04/2025, 16:27:27 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMailerModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 29596  - [39m01/04/2025, 16:27:27 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mClientsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 29596  - [39m01/04/2025, 16:27:27 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthJwtModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 29596  - [39m01/04/2025, 16:27:27 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mThrottlerModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 29596  - [39m01/04/2025, 16:27:27 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 29596  - [39m01/04/2025, 16:27:27 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 29596  - [39m01/04/2025, 16:27:27 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mKafkaModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 29596  - [39m01/04/2025, 16:27:27 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mEnvModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 29596  - [39m01/04/2025, 16:27:28 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMailerCoreModule dependencies initialized[39m[38;5;3m +459ms[39m
+[32m[Nest] 29596  - [39m01/04/2025, 16:27:28 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 29596  - [39m01/04/2025, 16:27:28 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCacheModule dependencies initialized[39m[38;5;3m +3ms[39m
+[32m[Nest] 29596  - [39m01/04/2025, 16:27:28 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mI18nModule dependencies initialized[39m[38;5;3m +15ms[39m
+[32m[Nest] 29596  - [39m01/04/2025, 16:27:28 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCoreApiSharedModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 29596  - [39m01/04/2025, 16:27:28 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 29596  - [39m01/04/2025, 16:27:28 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +177ms[39m
+[32m[Nest] 29596  - [39m01/04/2025, 16:27:28 [32m    LOG[39m [38;5;3m[NestMicroservice] [39m[32mNest microservice successfully started[39m[38;5;3m +62ms[39m
+[32m[Nest] 29596  - [39m01/04/2025, 16:27:28 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/}:[39m[38;5;3m +35ms[39m
+[32m[Nest] 29596  - [39m01/04/2025, 16:27:28 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/login, POST} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 29596  - [39m01/04/2025, 16:27:28 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/refresh, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 29596  - [39m01/04/2025, 16:27:28 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/logout, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 29596  - [39m01/04/2025, 16:27:28 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/reset-password, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 29596  - [39m01/04/2025, 16:27:28 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/confirm-reset-password, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 29596  - [39m01/04/2025, 16:27:28 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUserController {/}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 29596  - [39m01/04/2025, 16:27:28 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/user/create, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 29596  - [39m01/04/2025, 16:27:28 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/user/getById/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 29596  - [39m01/04/2025, 16:27:28 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/user/confirm-account, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 29596  - [39m01/04/2025, 16:27:28 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/user/resend-confirmation-email, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 29596  - [39m01/04/2025, 16:27:28 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mKafkaMonitorController {/}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 29596  - [39m01/04/2025, 16:27:28 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/kafka-monitor/getMessages, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 29596  - [39m01/04/2025, 16:27:28 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/kafka-monitor/edit, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 29596  - [39m01/04/2025, 16:27:28 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/kafka-monitor/remove, POST} route[39m[38;5;3m +0ms[39m
+{"level":"INFO","timestamp":"2025-04-01T19:27:28.785Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka-monitor-group"}
+[32mNo errors found.[39m
+{"level":"INFO","timestamp":"2025-04-01T19:27:32.295Z","logger":"kafkajs","message":"[ConsumerGroup] Consumer has joined the group","groupId":"kafka-monitor-group","memberId":"kafka-monitor-d9d3179d-a49f-47f8-9100-6df7d23d382d","leaderId":"kafka-monitor-d9d3179d-a49f-47f8-9100-6df7d23d382d","isLeader":true,"memberAssignment":{"sendEmail":[0]},"groupProtocol":"RoundRobinAssigner","duration":3509}
+[32m[Nest] 29596  - [39m01/04/2025, 16:27:32 [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +3710ms[39m
+[96m[Nest] 29596  - [39m01/04/2025, 16:27:32 [96mVERBOSE[39m [96m[::API GATEWAY::] Running on 3000✅[39m
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T19:27:47.785Z","logger":"kafkajs","message":"[Connection] Response Heartbeat(key: 12, version: 3)","broker":"127.0.0.1:9092","clientId":"kafka-monitor","error":"The group is rebalancing, so a rejoin is needed","correlationId":10,"size":10}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{"level":"WARN","timestamp":"2025-04-01T19:27:47.786Z","logger":"kafkajs","message":"[Runner] The group is rebalancing, re-joining","groupId":"kafka-monitor-group","memberId":"kafka-monitor-d9d3179d-a49f-47f8-9100-6df7d23d382d","error":"The group is rebalancing, so a rejoin is needed"}[39m[22m
+[1m[31m[39m[22m
+{"level":"INFO","timestamp":"2025-04-01T19:27:47.803Z","logger":"kafkajs","message":"[ConsumerGroup] Consumer has joined the group","groupId":"kafka-monitor-group","memberId":"kafka-monitor-d9d3179d-a49f-47f8-9100-6df7d23d382d","leaderId":"kafka-monitor-d9d3179d-a49f-47f8-9100-6df7d23d382d","isLeader":true,"memberAssignment":{},"groupProtocol":"RoundRobinAssigner","duration":17}
+[1m[31m[31m[Nest] 29596  - [39m[31m01/04/2025, 16:27:59 [31m  ERROR[39m[31m [38;5;3m[ClientProxyService] [39m[31m[31mError sending message to service Refresh at 0.0.0.0:3001:[39m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 29596  - [39m[31m01/04/2025, 16:27:59 [31m  ERROR[39m[31m [38;5;3m[ClientProxyService] [39m[31mObject(3) {[39m[22m
+[1m[31m  statusCode: [33m401[39m[31m,[39m[22m
+[1m[31m  message: [32m'Token expirado ou inválido'[39m[31m,[39m[22m
+[1m[31m  errorCode: [32m'INVALID_REFRESH_TOKEN'[39m[31m[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 29596  - [39m[31m01/04/2025, 16:27:59 [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31mObject(3) {[39m[22m
+[1m[31m  statusCode: [33m401[39m[31m,[39m[22m
+[1m[31m  message: [32m'Token expirado ou inválido'[39m[31m,[39m[22m
+[1m[31m  errorCode: [32m'INVALID_REFRESH_TOKEN'[39m[31m[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+Observable {
+  source: Observable {
+    source: Observable { _subscribe: [36m[Function (anonymous)][39m },
+    operator: [36m[Function (anonymous)][39m
+  },
+  operator: [36m[Function (anonymous)][39m
+}
+[1m[31m[31m[Nest] 29596  - [39m[31m01/04/2025, 16:28:06 [31m  ERROR[39m[31m [38;5;3m[ClientProxyService] [39m[31m[31mError sending message to service Login at 0.0.0.0:3001:[39m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 29596  - [39m[31m01/04/2025, 16:28:06 [31m  ERROR[39m[31m [38;5;3m[ClientProxyService] [39m[31mObject(4) {[39m[22m
+[1m[31m  message: [32m'Credencias inválidas'[39m[31m,[39m[22m
+[1m[31m  errorCode: [32m'INVALID_CREDENTIALS'[39m[31m,[39m[22m
+[1m[31m  statusCode: [33m401[39m[31m,[39m[22m
+[1m[31m  error: [32m'Unauthorized'[39m[31m[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 29596  - [39m[31m01/04/2025, 16:28:06 [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31mObject(4) {[39m[22m
+[1m[31m  message: [32m'Credencias inválidas'[39m[31m,[39m[22m
+[1m[31m  errorCode: [32m'INVALID_CREDENTIALS'[39m[31m,[39m[22m
+[1m[31m  statusCode: [33m401[39m[31m,[39m[22m
+[1m[31m  error: [32m'Unauthorized'[39m[31m[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+Observable {
+  source: Observable {
+    source: Observable { _subscribe: [36m[Function (anonymous)][39m },
+    operator: [36m[Function (anonymous)][39m
+  },
+  operator: [36m[Function (anonymous)][39m
+}
+[1m[31m[31m[Nest] 29596  - [39m[31m01/04/2025, 16:28:12 [31m  ERROR[39m[31m [38;5;3m[ClientProxyService] [39m[31m[31mError sending message to service Login at 0.0.0.0:3001:[39m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 29596  - [39m[31m01/04/2025, 16:28:12 [31m  ERROR[39m[31m [38;5;3m[ClientProxyService] [39m[31mObject(4) {[39m[22m
+[1m[31m  message: [32m'Credencias inválidas'[39m[31m,[39m[22m
+[1m[31m  errorCode: [32m'INVALID_CREDENTIALS'[39m[31m,[39m[22m
+[1m[31m  statusCode: [33m401[39m[31m,[39m[22m
+[1m[31m  error: [32m'Unauthorized'[39m[31m[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 29596  - [39m[31m01/04/2025, 16:28:12 [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31mObject(4) {[39m[22m
+[1m[31m  message: [32m'Credencias inválidas'[39m[31m,[39m[22m
+[1m[31m  errorCode: [32m'INVALID_CREDENTIALS'[39m[31m,[39m[22m
+[1m[31m  statusCode: [33m401[39m[31m,[39m[22m
+[1m[31m  error: [32m'Unauthorized'[39m[31m[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T22:54:11.539Z","logger":"kafkajs","message":"[Consumer] Crash: KafkaJSNumberOfRetriesExceeded: Closed connection","groupId":"kafka-monitor-group","retryCount":5,"stack":"KafkaJSNonRetriableError\n  Caused by: KafkaJSConnectionClosedError: Closed connection\n    at Socket.onEnd (C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\connection.js:197:13)\n    at Socket.emit (node:events:531:35)\n    at endReadableNT (node:internal/streams/readable:1696:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"}[39m[22m
+[1m[31m[39m[22m
+{"level":"INFO","timestamp":"2025-04-01T22:54:11.559Z","logger":"kafkajs","message":"[Consumer] Stopped","groupId":"kafka-monitor-group"}
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T22:54:11.560Z","logger":"kafkajs","message":"[Consumer] Restarting the consumer in 9728ms","retryCount":5,"retryTime":9728,"groupId":"kafka-monitor-group"}[39m[22m
+[1m[31m[39m[22m
+{"level":"INFO","timestamp":"2025-04-01T22:54:21.291Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka-monitor-group"}
+{"level":"INFO","timestamp":"2025-04-01T22:54:51.396Z","logger":"kafkajs","message":"[Consumer] Stopped","groupId":"kafka-monitor-group"}
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T22:54:51.396Z","logger":"kafkajs","message":"[Consumer] Crash: KafkaJSRequestTimeoutError: Request Metadata(key: 3, version: 6) timed out","groupId":"kafka-monitor-group","stack":"KafkaJSRequestTimeoutError: Request Metadata(key: 3, version: 6) timed out\n    at SocketRequest.timeoutRequest (C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\requestQueue\\socketRequest.js:107:19)\n    at C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\requestQueue\\index.js:94:21\n    at Map.forEach (<anonymous>)\n    at Timeout._onTimeout (C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\requestQueue\\index.js:92:23)\n    at listOnTimeout (node:internal/timers:573:17)\n    at processTimers (node:internal/timers:514:7)"}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T22:54:51.396Z","logger":"kafkajs","message":"[Consumer] Restarting the consumer in 300ms","retryTime":300,"groupId":"kafka-monitor-group"}[39m[22m
+[1m[31m[39m[22m
+{"level":"INFO","timestamp":"2025-04-01T22:54:51.703Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka-monitor-group"}
+{"level":"INFO","timestamp":"2025-04-01T22:55:21.754Z","logger":"kafkajs","message":"[Consumer] Stopped","groupId":"kafka-monitor-group"}
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T22:55:21.753Z","logger":"kafkajs","message":"[Consumer] Crash: KafkaJSRequestTimeoutError: Request Metadata(key: 3, version: 6) timed out","groupId":"kafka-monitor-group","stack":"KafkaJSRequestTimeoutError: Request Metadata(key: 3, version: 6) timed out\n    at SocketRequest.timeoutRequest (C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\requestQueue\\socketRequest.js:107:19)\n    at C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\requestQueue\\index.js:94:21\n    at Map.forEach (<anonymous>)\n    at Timeout._onTimeout (C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\requestQueue\\index.js:92:23)\n    at listOnTimeout (node:internal/timers:573:17)\n    at processTimers (node:internal/timers:514:7)"}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T22:55:21.756Z","logger":"kafkajs","message":"[Consumer] Restarting the consumer in 300ms","retryTime":300,"groupId":"kafka-monitor-group"}[39m[22m
+[1m[31m[39m[22m
+[1m[31m(node:29596) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 connect listeners added to [Socket]. Use emitter.setMaxListeners() to increase limit[39m[22m
+[1m[31m(Use `node --trace-warnings ...` to show where the warning was created)[39m[22m
+[1m[31m[39m[22m
+{"level":"INFO","timestamp":"2025-04-01T22:55:22.064Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka-monitor-group"}
+{"level":"INFO","timestamp":"2025-04-01T22:55:52.175Z","logger":"kafkajs","message":"[Consumer] Stopped","groupId":"kafka-monitor-group"}
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T22:55:52.175Z","logger":"kafkajs","message":"[Consumer] Crash: KafkaJSRequestTimeoutError: Request Metadata(key: 3, version: 6) timed out","groupId":"kafka-monitor-group","stack":"KafkaJSRequestTimeoutError: Request Metadata(key: 3, version: 6) timed out\n    at SocketRequest.timeoutRequest (C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\requestQueue\\socketRequest.js:107:19)\n    at C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\requestQueue\\index.js:94:21\n    at Map.forEach (<anonymous>)\n    at Timeout._onTimeout (C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\requestQueue\\index.js:92:23)\n    at listOnTimeout (node:internal/timers:573:17)\n    at processTimers (node:internal/timers:514:7)"}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T22:55:52.175Z","logger":"kafkajs","message":"[Consumer] Restarting the consumer in 300ms","retryTime":300,"groupId":"kafka-monitor-group"}[39m[22m
+[1m[31m[39m[22m
+{"level":"INFO","timestamp":"2025-04-01T22:55:52.486Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka-monitor-group"}
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T22:56:07.912Z","logger":"kafkajs","message":"[Consumer] Crash: KafkaJSConnectionClosedError: Closed connection","groupId":"kafka-monitor-group","stack":"KafkaJSConnectionClosedError: Closed connection\n    at Socket.onEnd (C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\connection.js:197:13)\n    at Socket.emit (node:events:531:35)\n    at endReadableNT (node:internal/streams/readable:1696:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"}[39m[22m
+[1m[31m[39m[22m
+{"level":"INFO","timestamp":"2025-04-01T22:56:07.913Z","logger":"kafkajs","message":"[Consumer] Stopped","groupId":"kafka-monitor-group"}
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T22:56:07.914Z","logger":"kafkajs","message":"[Consumer] Restarting the consumer in 300ms","retryTime":300,"groupId":"kafka-monitor-group"}[39m[22m
+[1m[31m[39m[22m
+{"level":"INFO","timestamp":"2025-04-01T22:56:08.217Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka-monitor-group"}
+{"level":"INFO","timestamp":"2025-04-01T22:56:08.247Z","logger":"kafkajs","message":"[Consumer] Stopped","groupId":"kafka-monitor-group"}
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T22:56:08.247Z","logger":"kafkajs","message":"[Consumer] Crash: KafkaJSConnectionClosedError: Closed connection","groupId":"kafka-monitor-group","stack":"KafkaJSConnectionClosedError: Closed connection\n    at Socket.onEnd (C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\connection.js:197:13)\n    at Socket.emit (node:events:531:35)\n    at endReadableNT (node:internal/streams/readable:1696:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T22:56:08.248Z","logger":"kafkajs","message":"[Consumer] Restarting the consumer in 300ms","retryTime":300,"groupId":"kafka-monitor-group"}[39m[22m
+[1m[31m[39m[22m
+{"level":"INFO","timestamp":"2025-04-01T22:56:08.558Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka-monitor-group"}
+{"level":"INFO","timestamp":"2025-04-01T22:56:08.652Z","logger":"kafkajs","message":"[Consumer] Stopped","groupId":"kafka-monitor-group"}
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T22:56:08.652Z","logger":"kafkajs","message":"[Consumer] Crash: KafkaJSConnectionClosedError: Closed connection","groupId":"kafka-monitor-group","stack":"KafkaJSConnectionClosedError: Closed connection\n    at Socket.onEnd (C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\connection.js:197:13)\n    at Socket.emit (node:events:531:35)\n    at endReadableNT (node:internal/streams/readable:1696:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T22:56:08.652Z","logger":"kafkajs","message":"[Consumer] Restarting the consumer in 300ms","retryTime":300,"groupId":"kafka-monitor-group"}[39m[22m
+[1m[31m[39m[22m
+{"level":"INFO","timestamp":"2025-04-01T22:56:08.962Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka-monitor-group"}
+{"level":"INFO","timestamp":"2025-04-01T22:56:09.115Z","logger":"kafkajs","message":"[Consumer] Stopped","groupId":"kafka-monitor-group"}
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T22:56:09.115Z","logger":"kafkajs","message":"[Consumer] Crash: KafkaJSConnectionClosedError: Closed connection","groupId":"kafka-monitor-group","stack":"KafkaJSConnectionClosedError: Closed connection\n    at Socket.onEnd (C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\connection.js:197:13)\n    at Socket.emit (node:events:531:35)\n    at endReadableNT (node:internal/streams/readable:1696:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T22:56:09.116Z","logger":"kafkajs","message":"[Consumer] Restarting the consumer in 300ms","retryTime":300,"groupId":"kafka-monitor-group"}[39m[22m
+[1m[31m[39m[22m
+{"level":"INFO","timestamp":"2025-04-01T22:56:09.430Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka-monitor-group"}
+{"level":"INFO","timestamp":"2025-04-01T22:56:09.441Z","logger":"kafkajs","message":"[Consumer] Stopped","groupId":"kafka-monitor-group"}
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T22:56:09.441Z","logger":"kafkajs","message":"[Consumer] Crash: KafkaJSConnectionClosedError: Closed connection","groupId":"kafka-monitor-group","stack":"KafkaJSConnectionClosedError: Closed connection\n    at Socket.onEnd (C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\connection.js:197:13)\n    at Socket.emit (node:events:531:35)\n    at endReadableNT (node:internal/streams/readable:1696:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T22:56:09.441Z","logger":"kafkajs","message":"[Consumer] Restarting the consumer in 300ms","retryTime":300,"groupId":"kafka-monitor-group"}[39m[22m
+[1m[31m[39m[22m
+{"level":"INFO","timestamp":"2025-04-01T22:56:09.756Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka-monitor-group"}
+{"level":"INFO","timestamp":"2025-04-01T22:56:09.767Z","logger":"kafkajs","message":"[Consumer] Stopped","groupId":"kafka-monitor-group"}
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T22:56:09.767Z","logger":"kafkajs","message":"[Consumer] Crash: KafkaJSConnectionClosedError: Closed connection","groupId":"kafka-monitor-group","stack":"KafkaJSConnectionClosedError: Closed connection\n    at Socket.onEnd (C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\connection.js:197:13)\n    at Socket.emit (node:events:531:35)\n    at endReadableNT (node:internal/streams/readable:1696:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T22:56:09.767Z","logger":"kafkajs","message":"[Consumer] Restarting the consumer in 300ms","retryTime":300,"groupId":"kafka-monitor-group"}[39m[22m
+[1m[31m[39m[22m
+{"level":"INFO","timestamp":"2025-04-01T22:56:10.067Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka-monitor-group"}
+{"level":"INFO","timestamp":"2025-04-01T22:56:10.127Z","logger":"kafkajs","message":"[Consumer] Stopped","groupId":"kafka-monitor-group"}
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T22:56:10.127Z","logger":"kafkajs","message":"[Consumer] Crash: KafkaJSConnectionClosedError: Closed connection","groupId":"kafka-monitor-group","stack":"KafkaJSConnectionClosedError: Closed connection\n    at Socket.onEnd (C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\connection.js:197:13)\n    at Socket.emit (node:events:531:35)\n    at endReadableNT (node:internal/streams/readable:1696:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T22:56:10.127Z","logger":"kafkajs","message":"[Consumer] Restarting the consumer in 300ms","retryTime":300,"groupId":"kafka-monitor-group"}[39m[22m
+[1m[31m[39m[22m
+{"level":"INFO","timestamp":"2025-04-01T22:56:10.441Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka-monitor-group"}
+{"level":"INFO","timestamp":"2025-04-01T22:56:10.536Z","logger":"kafkajs","message":"[Consumer] Stopped","groupId":"kafka-monitor-group"}
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T22:56:10.536Z","logger":"kafkajs","message":"[Consumer] Crash: KafkaJSConnectionClosedError: Closed connection","groupId":"kafka-monitor-group","stack":"KafkaJSConnectionClosedError: Closed connection\n    at Socket.onEnd (C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\connection.js:197:13)\n    at Socket.emit (node:events:531:35)\n    at endReadableNT (node:internal/streams/readable:1696:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"}[39m[22m
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T22:56:10.536Z","logger":"kafkajs","message":"[Consumer] Restarting the consumer in 300ms","retryTime":300,"groupId":"kafka-monitor-group"}[39m[22m
+[1m[31m[39m[22m
+{"level":"INFO","timestamp":"2025-04-01T22:56:10.845Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka-monitor-group"}
+{"level":"INFO","timestamp":"2025-04-01T22:56:10.933Z","logger":"kafkajs","message":"[Consumer] Stopped","groupId":"kafka-monitor-group"}
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T22:56:10.932Z","logger":"kafkajs","message":"[Consumer] Crash: KafkaJSConnectionClosedError: Closed connection","groupId":"kafka-monitor-group","stack":"KafkaJSConnectionClosedError: Closed connection\n    at Socket.onEnd (C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\connection.js:197:13)\n    at Socket.emit (node:events:531:35)\n    at endReadableNT (node:internal/streams/readable:1696:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T22:56:10.933Z","logger":"kafkajs","message":"[Consumer] Restarting the consumer in 300ms","retryTime":300,"groupId":"kafka-monitor-group"}[39m[22m
+[1m[31m[39m[22m
+{"level":"INFO","timestamp":"2025-04-01T22:56:11.235Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka-monitor-group"}
+{"level":"INFO","timestamp":"2025-04-01T22:56:11.289Z","logger":"kafkajs","message":"[Consumer] Stopped","groupId":"kafka-monitor-group"}
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T22:56:11.288Z","logger":"kafkajs","message":"[Consumer] Crash: KafkaJSConnectionClosedError: Closed connection","groupId":"kafka-monitor-group","stack":"KafkaJSConnectionClosedError: Closed connection\n    at Socket.onEnd (C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\connection.js:197:13)\n    at Socket.emit (node:events:531:35)\n    at endReadableNT (node:internal/streams/readable:1696:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T22:56:11.289Z","logger":"kafkajs","message":"[Consumer] Restarting the consumer in 300ms","retryTime":300,"groupId":"kafka-monitor-group"}[39m[22m
+[1m[31m[39m[22m
+{"level":"INFO","timestamp":"2025-04-01T22:56:11.593Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka-monitor-group"}
+{"level":"INFO","timestamp":"2025-04-01T22:56:11.647Z","logger":"kafkajs","message":"[Consumer] Stopped","groupId":"kafka-monitor-group"}
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T22:56:11.647Z","logger":"kafkajs","message":"[Consumer] Crash: KafkaJSConnectionClosedError: Closed connection","groupId":"kafka-monitor-group","stack":"KafkaJSConnectionClosedError: Closed connection\n    at Socket.onEnd (C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\connection.js:197:13)\n    at Socket.emit (node:events:531:35)\n    at endReadableNT (node:internal/streams/readable:1696:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T22:56:11.647Z","logger":"kafkajs","message":"[Consumer] Restarting the consumer in 300ms","retryTime":300,"groupId":"kafka-monitor-group"}[39m[22m
+[1m[31m[39m[22m
+{"level":"INFO","timestamp":"2025-04-01T22:56:11.950Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka-monitor-group"}
+{"level":"INFO","timestamp":"2025-04-01T22:56:12.045Z","logger":"kafkajs","message":"[Consumer] Stopped","groupId":"kafka-monitor-group"}
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T22:56:12.044Z","logger":"kafkajs","message":"[Consumer] Crash: KafkaJSConnectionClosedError: Closed connection","groupId":"kafka-monitor-group","stack":"KafkaJSConnectionClosedError: Closed connection\n    at Socket.onEnd (C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\connection.js:197:13)\n    at Socket.emit (node:events:531:35)\n    at endReadableNT (node:internal/streams/readable:1696:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"}[39m[22m
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T22:56:12.045Z","logger":"kafkajs","message":"[Consumer] Restarting the consumer in 300ms","retryTime":300,"groupId":"kafka-monitor-group"}[39m[22m
+[1m[31m[39m[22m
+{"level":"INFO","timestamp":"2025-04-01T22:56:12.355Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka-monitor-group"}
+{"level":"INFO","timestamp":"2025-04-01T22:56:12.420Z","logger":"kafkajs","message":"[Consumer] Stopped","groupId":"kafka-monitor-group"}
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T22:56:12.420Z","logger":"kafkajs","message":"[Consumer] Crash: KafkaJSConnectionClosedError: Closed connection","groupId":"kafka-monitor-group","stack":"KafkaJSConnectionClosedError: Closed connection\n    at Socket.onEnd (C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\connection.js:197:13)\n    at Socket.emit (node:events:531:35)\n    at endReadableNT (node:internal/streams/readable:1696:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T22:56:12.420Z","logger":"kafkajs","message":"[Consumer] Restarting the consumer in 300ms","retryTime":300,"groupId":"kafka-monitor-group"}[39m[22m
+[1m[31m[39m[22m
+{"level":"INFO","timestamp":"2025-04-01T22:56:12.728Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka-monitor-group"}
+{"level":"INFO","timestamp":"2025-04-01T22:56:12.804Z","logger":"kafkajs","message":"[Consumer] Stopped","groupId":"kafka-monitor-group"}
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T22:56:12.804Z","logger":"kafkajs","message":"[Consumer] Crash: KafkaJSConnectionClosedError: Closed connection","groupId":"kafka-monitor-group","stack":"KafkaJSConnectionClosedError: Closed connection\n    at Socket.onEnd (C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\connection.js:197:13)\n    at Socket.emit (node:events:531:35)\n    at endReadableNT (node:internal/streams/readable:1696:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T22:56:12.804Z","logger":"kafkajs","message":"[Consumer] Restarting the consumer in 300ms","retryTime":300,"groupId":"kafka-monitor-group"}[39m[22m
+[1m[31m[39m[22m
+{"level":"INFO","timestamp":"2025-04-01T22:56:13.117Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka-monitor-group"}
+{"level":"INFO","timestamp":"2025-04-01T22:56:13.493Z","logger":"kafkajs","message":"[Consumer] Stopped","groupId":"kafka-monitor-group"}
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T22:56:13.493Z","logger":"kafkajs","message":"[Consumer] Crash: KafkaJSConnectionClosedError: Closed connection","groupId":"kafka-monitor-group","stack":"KafkaJSConnectionClosedError: Closed connection\n    at Socket.onEnd (C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\connection.js:197:13)\n    at Socket.emit (node:events:531:35)\n    at endReadableNT (node:internal/streams/readable:1696:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T22:56:13.493Z","logger":"kafkajs","message":"[Consumer] Restarting the consumer in 300ms","retryTime":300,"groupId":"kafka-monitor-group"}[39m[22m
+[1m[31m[39m[22m
+{"level":"INFO","timestamp":"2025-04-01T22:56:13.802Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka-monitor-group"}
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T22:56:13.898Z","logger":"kafkajs","message":"[Consumer] Crash: KafkaJSConnectionClosedError: Closed connection","groupId":"kafka-monitor-group","stack":"KafkaJSConnectionClosedError: Closed connection\n    at Socket.onEnd (C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\connection.js:197:13)\n    at Socket.emit (node:events:531:35)\n    at endReadableNT (node:internal/streams/readable:1696:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"}[39m[22m
+[1m[31m[39m[22m
+{"level":"INFO","timestamp":"2025-04-01T22:56:13.898Z","logger":"kafkajs","message":"[Consumer] Stopped","groupId":"kafka-monitor-group"}
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T22:56:13.899Z","logger":"kafkajs","message":"[Consumer] Restarting the consumer in 300ms","retryTime":300,"groupId":"kafka-monitor-group"}[39m[22m
+[1m[31m[39m[22m
+{"level":"INFO","timestamp":"2025-04-01T22:56:14.203Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka-monitor-group"}
+{"level":"INFO","timestamp":"2025-04-01T22:56:14.462Z","logger":"kafkajs","message":"[Consumer] Stopped","groupId":"kafka-monitor-group"}
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T22:56:14.462Z","logger":"kafkajs","message":"[Consumer] Crash: KafkaJSConnectionClosedError: Closed connection","groupId":"kafka-monitor-group","stack":"KafkaJSConnectionClosedError: Closed connection\n    at Socket.onEnd (C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\connection.js:197:13)\n    at Socket.emit (node:events:531:35)\n    at endReadableNT (node:internal/streams/readable:1696:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T22:56:14.462Z","logger":"kafkajs","message":"[Consumer] Restarting the consumer in 300ms","retryTime":300,"groupId":"kafka-monitor-group"}[39m[22m
+[1m[31m[39m[22m
+{"level":"INFO","timestamp":"2025-04-01T22:56:14.773Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka-monitor-group"}
+{"level":"INFO","timestamp":"2025-04-01T22:56:44.877Z","logger":"kafkajs","message":"[Consumer] Stopped","groupId":"kafka-monitor-group"}
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T22:56:44.877Z","logger":"kafkajs","message":"[Consumer] Crash: KafkaJSRequestTimeoutError: Request Metadata(key: 3, version: 6) timed out","groupId":"kafka-monitor-group","stack":"KafkaJSRequestTimeoutError: Request Metadata(key: 3, version: 6) timed out\n    at SocketRequest.timeoutRequest (C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\requestQueue\\socketRequest.js:107:19)\n    at C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\requestQueue\\index.js:94:21\n    at Map.forEach (<anonymous>)\n    at Timeout._onTimeout (C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\requestQueue\\index.js:92:23)\n    at listOnTimeout (node:internal/timers:573:17)\n    at processTimers (node:internal/timers:514:7)"}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T22:56:44.877Z","logger":"kafkajs","message":"[Consumer] Restarting the consumer in 300ms","retryTime":300,"groupId":"kafka-monitor-group"}[39m[22m
+[1m[31m[39m[22m
+{"level":"INFO","timestamp":"2025-04-01T22:56:45.187Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka-monitor-group"}
+{"level":"INFO","timestamp":"2025-04-01T22:57:15.268Z","logger":"kafkajs","message":"[Consumer] Stopped","groupId":"kafka-monitor-group"}
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T22:57:15.268Z","logger":"kafkajs","message":"[Consumer] Crash: KafkaJSRequestTimeoutError: Request Metadata(key: 3, version: 6) timed out","groupId":"kafka-monitor-group","stack":"KafkaJSRequestTimeoutError: Request Metadata(key: 3, version: 6) timed out\n    at SocketRequest.timeoutRequest (C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\requestQueue\\socketRequest.js:107:19)\n    at C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\requestQueue\\index.js:94:21\n    at Map.forEach (<anonymous>)\n    at Timeout._onTimeout (C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\requestQueue\\index.js:92:23)\n    at listOnTimeout (node:internal/timers:573:17)\n    at processTimers (node:internal/timers:514:7)"}[39m[22m
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T22:57:15.269Z","logger":"kafkajs","message":"[Consumer] Restarting the consumer in 300ms","retryTime":300,"groupId":"kafka-monitor-group"}[39m[22m
+[1m[31m[39m[22m
+{"level":"INFO","timestamp":"2025-04-01T22:57:15.576Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka-monitor-group"}
+{"level":"INFO","timestamp":"2025-04-01T22:57:45.650Z","logger":"kafkajs","message":"[Consumer] Stopped","groupId":"kafka-monitor-group"}
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T22:57:45.650Z","logger":"kafkajs","message":"[Consumer] Crash: KafkaJSRequestTimeoutError: Request Metadata(key: 3, version: 6) timed out","groupId":"kafka-monitor-group","stack":"KafkaJSRequestTimeoutError: Request Metadata(key: 3, version: 6) timed out\n    at SocketRequest.timeoutRequest (C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\requestQueue\\socketRequest.js:107:19)\n    at C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\requestQueue\\index.js:94:21\n    at Map.forEach (<anonymous>)\n    at Timeout._onTimeout (C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\requestQueue\\index.js:92:23)\n    at listOnTimeout (node:internal/timers:573:17)\n    at processTimers (node:internal/timers:514:7)"}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T22:57:45.650Z","logger":"kafkajs","message":"[Consumer] Restarting the consumer in 300ms","retryTime":300,"groupId":"kafka-monitor-group"}[39m[22m
+[1m[31m[39m[22m
+{"level":"INFO","timestamp":"2025-04-01T22:57:45.965Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka-monitor-group"}
+{"level":"INFO","timestamp":"2025-04-01T22:58:15.976Z","logger":"kafkajs","message":"[Consumer] Stopped","groupId":"kafka-monitor-group"}
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T22:58:15.976Z","logger":"kafkajs","message":"[Consumer] Crash: KafkaJSRequestTimeoutError: Request Metadata(key: 3, version: 6) timed out","groupId":"kafka-monitor-group","stack":"KafkaJSRequestTimeoutError: Request Metadata(key: 3, version: 6) timed out\n    at SocketRequest.timeoutRequest (C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\requestQueue\\socketRequest.js:107:19)\n    at C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\requestQueue\\index.js:94:21\n    at Map.forEach (<anonymous>)\n    at Timeout._onTimeout (C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\requestQueue\\index.js:92:23)\n    at listOnTimeout (node:internal/timers:573:17)\n    at processTimers (node:internal/timers:514:7)"}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T22:58:15.976Z","logger":"kafkajs","message":"[Consumer] Restarting the consumer in 300ms","retryTime":300,"groupId":"kafka-monitor-group"}[39m[22m
+[1m[31m[39m[22m
+{"level":"INFO","timestamp":"2025-04-01T22:58:16.288Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka-monitor-group"}
+{"level":"INFO","timestamp":"2025-04-01T22:58:46.306Z","logger":"kafkajs","message":"[Consumer] Stopped","groupId":"kafka-monitor-group"}
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T22:58:46.306Z","logger":"kafkajs","message":"[Consumer] Crash: KafkaJSRequestTimeoutError: Request Metadata(key: 3, version: 6) timed out","groupId":"kafka-monitor-group","stack":"KafkaJSRequestTimeoutError: Request Metadata(key: 3, version: 6) timed out\n    at SocketRequest.timeoutRequest (C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\requestQueue\\socketRequest.js:107:19)\n    at C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\requestQueue\\index.js:94:21\n    at Map.forEach (<anonymous>)\n    at Timeout._onTimeout (C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\requestQueue\\index.js:92:23)\n    at listOnTimeout (node:internal/timers:573:17)\n    at processTimers (node:internal/timers:514:7)"}[39m[22m
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T22:58:46.307Z","logger":"kafkajs","message":"[Consumer] Restarting the consumer in 300ms","retryTime":300,"groupId":"kafka-monitor-group"}[39m[22m
+[1m[31m[39m[22m
+{"level":"INFO","timestamp":"2025-04-01T22:58:46.615Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka-monitor-group"}
+{"level":"INFO","timestamp":"2025-04-01T22:59:16.633Z","logger":"kafkajs","message":"[Consumer] Stopped","groupId":"kafka-monitor-group"}
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T22:59:16.632Z","logger":"kafkajs","message":"[Consumer] Crash: KafkaJSRequestTimeoutError: Request Metadata(key: 3, version: 6) timed out","groupId":"kafka-monitor-group","stack":"KafkaJSRequestTimeoutError: Request Metadata(key: 3, version: 6) timed out\n    at SocketRequest.timeoutRequest (C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\requestQueue\\socketRequest.js:107:19)\n    at C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\requestQueue\\index.js:94:21\n    at Map.forEach (<anonymous>)\n    at Timeout._onTimeout (C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\requestQueue\\index.js:92:23)\n    at listOnTimeout (node:internal/timers:573:17)\n    at processTimers (node:internal/timers:514:7)"}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T22:59:16.633Z","logger":"kafkajs","message":"[Consumer] Restarting the consumer in 300ms","retryTime":300,"groupId":"kafka-monitor-group"}[39m[22m
+[1m[31m[39m[22m
+{"level":"INFO","timestamp":"2025-04-01T22:59:16.944Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka-monitor-group"}
+{"level":"INFO","timestamp":"2025-04-01T22:59:47.008Z","logger":"kafkajs","message":"[Consumer] Stopped","groupId":"kafka-monitor-group"}
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T22:59:47.008Z","logger":"kafkajs","message":"[Consumer] Crash: KafkaJSRequestTimeoutError: Request Metadata(key: 3, version: 6) timed out","groupId":"kafka-monitor-group","stack":"KafkaJSRequestTimeoutError: Request Metadata(key: 3, version: 6) timed out\n    at SocketRequest.timeoutRequest (C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\requestQueue\\socketRequest.js:107:19)\n    at C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\requestQueue\\index.js:94:21\n    at Map.forEach (<anonymous>)\n    at Timeout._onTimeout (C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\requestQueue\\index.js:92:23)\n    at listOnTimeout (node:internal/timers:573:17)\n    at processTimers (node:internal/timers:514:7)"}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T22:59:47.008Z","logger":"kafkajs","message":"[Consumer] Restarting the consumer in 300ms","retryTime":300,"groupId":"kafka-monitor-group"}[39m[22m
+[1m[31m[39m[22m
+{"level":"INFO","timestamp":"2025-04-01T22:59:47.316Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka-monitor-group"}
+{"level":"INFO","timestamp":"2025-04-01T23:00:17.430Z","logger":"kafkajs","message":"[Consumer] Stopped","groupId":"kafka-monitor-group"}
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T23:00:17.430Z","logger":"kafkajs","message":"[Consumer] Crash: KafkaJSRequestTimeoutError: Request Metadata(key: 3, version: 6) timed out","groupId":"kafka-monitor-group","stack":"KafkaJSRequestTimeoutError: Request Metadata(key: 3, version: 6) timed out\n    at SocketRequest.timeoutRequest (C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\requestQueue\\socketRequest.js:107:19)\n    at C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\requestQueue\\index.js:94:21\n    at Map.forEach (<anonymous>)\n    at Timeout._onTimeout (C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\requestQueue\\index.js:92:23)\n    at listOnTimeout (node:internal/timers:573:17)\n    at processTimers (node:internal/timers:514:7)"}[39m[22m
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T23:00:17.430Z","logger":"kafkajs","message":"[Consumer] Restarting the consumer in 300ms","retryTime":300,"groupId":"kafka-monitor-group"}[39m[22m
+[1m[31m[39m[22m
+{"level":"INFO","timestamp":"2025-04-01T23:00:17.736Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka-monitor-group"}
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T23:00:47.745Z","logger":"kafkajs","message":"[Consumer] Crash: KafkaJSRequestTimeoutError: Request Metadata(key: 3, version: 6) timed out","groupId":"kafka-monitor-group","stack":"KafkaJSRequestTimeoutError: Request Metadata(key: 3, version: 6) timed out\n    at SocketRequest.timeoutRequest (C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\requestQueue\\socketRequest.js:107:19)\n    at C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\requestQueue\\index.js:94:21\n    at Map.forEach (<anonymous>)\n    at Timeout._onTimeout (C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\requestQueue\\index.js:92:23)\n    at listOnTimeout (node:internal/timers:573:17)\n    at processTimers (node:internal/timers:514:7)"}[39m[22m
+[1m[31m[39m[22m
+{"level":"INFO","timestamp":"2025-04-01T23:00:47.746Z","logger":"kafkajs","message":"[Consumer] Stopped","groupId":"kafka-monitor-group"}
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T23:00:47.746Z","logger":"kafkajs","message":"[Consumer] Restarting the consumer in 300ms","retryTime":300,"groupId":"kafka-monitor-group"}[39m[22m
+[1m[31m[39m[22m
+{"level":"INFO","timestamp":"2025-04-01T23:00:48.062Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka-monitor-group"}
+{"level":"INFO","timestamp":"2025-04-01T23:01:18.095Z","logger":"kafkajs","message":"[Consumer] Stopped","groupId":"kafka-monitor-group"}
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T23:01:18.095Z","logger":"kafkajs","message":"[Consumer] Crash: KafkaJSRequestTimeoutError: Request Metadata(key: 3, version: 6) timed out","groupId":"kafka-monitor-group","stack":"KafkaJSRequestTimeoutError: Request Metadata(key: 3, version: 6) timed out\n    at SocketRequest.timeoutRequest (C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\requestQueue\\socketRequest.js:107:19)\n    at C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\requestQueue\\index.js:94:21\n    at Map.forEach (<anonymous>)\n    at Timeout._onTimeout (C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\requestQueue\\index.js:92:23)\n    at listOnTimeout (node:internal/timers:573:17)\n    at processTimers (node:internal/timers:514:7)"}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T23:01:18.095Z","logger":"kafkajs","message":"[Consumer] Restarting the consumer in 300ms","retryTime":300,"groupId":"kafka-monitor-group"}[39m[22m
+[1m[31m[39m[22m
+{"level":"INFO","timestamp":"2025-04-01T23:01:18.405Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka-monitor-group"}
+{"level":"INFO","timestamp":"2025-04-01T23:01:48.518Z","logger":"kafkajs","message":"[Consumer] Stopped","groupId":"kafka-monitor-group"}
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T23:01:48.517Z","logger":"kafkajs","message":"[Consumer] Crash: KafkaJSRequestTimeoutError: Request Metadata(key: 3, version: 6) timed out","groupId":"kafka-monitor-group","stack":"KafkaJSRequestTimeoutError: Request Metadata(key: 3, version: 6) timed out\n    at SocketRequest.timeoutRequest (C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\requestQueue\\socketRequest.js:107:19)\n    at C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\requestQueue\\index.js:94:21\n    at Map.forEach (<anonymous>)\n    at Timeout._onTimeout (C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\requestQueue\\index.js:92:23)\n    at listOnTimeout (node:internal/timers:573:17)\n    at processTimers (node:internal/timers:514:7)"}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T23:01:48.518Z","logger":"kafkajs","message":"[Consumer] Restarting the consumer in 300ms","retryTime":300,"groupId":"kafka-monitor-group"}[39m[22m
+[1m[31m[39m[22m
+{"level":"INFO","timestamp":"2025-04-01T23:01:48.827Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka-monitor-group"}
+{"level":"INFO","timestamp":"2025-04-01T23:02:03.581Z","logger":"kafkajs","message":"[Consumer] Stopped","groupId":"kafka-monitor-group"}
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T23:02:03.581Z","logger":"kafkajs","message":"[Consumer] Crash: KafkaJSConnectionClosedError: Closed connection","groupId":"kafka-monitor-group","stack":"KafkaJSConnectionClosedError: Closed connection\n    at Socket.onEnd (C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\connection.js:197:13)\n    at Socket.emit (node:events:531:35)\n    at endReadableNT (node:internal/streams/readable:1696:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T23:02:03.581Z","logger":"kafkajs","message":"[Consumer] Restarting the consumer in 300ms","retryTime":300,"groupId":"kafka-monitor-group"}[39m[22m
+[1m[31m[39m[22m
+{"level":"INFO","timestamp":"2025-04-01T23:02:03.887Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka-monitor-group"}
+{"level":"INFO","timestamp":"2025-04-01T23:02:04.023Z","logger":"kafkajs","message":"[Consumer] Stopped","groupId":"kafka-monitor-group"}
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T23:02:04.022Z","logger":"kafkajs","message":"[Consumer] Crash: KafkaJSConnectionClosedError: Closed connection","groupId":"kafka-monitor-group","stack":"KafkaJSConnectionClosedError: Closed connection\n    at Socket.onEnd (C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\connection.js:197:13)\n    at Socket.emit (node:events:531:35)\n    at endReadableNT (node:internal/streams/readable:1696:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T23:02:04.023Z","logger":"kafkajs","message":"[Consumer] Restarting the consumer in 300ms","retryTime":300,"groupId":"kafka-monitor-group"}[39m[22m
+[1m[31m[39m[22m
+{"level":"INFO","timestamp":"2025-04-01T23:02:04.334Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka-monitor-group"}
+{"level":"INFO","timestamp":"2025-04-01T23:02:04.387Z","logger":"kafkajs","message":"[Consumer] Stopped","groupId":"kafka-monitor-group"}
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T23:02:04.387Z","logger":"kafkajs","message":"[Consumer] Crash: KafkaJSConnectionClosedError: Closed connection","groupId":"kafka-monitor-group","stack":"KafkaJSConnectionClosedError: Closed connection\n    at Socket.onEnd (C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\connection.js:197:13)\n    at Socket.emit (node:events:531:35)\n    at endReadableNT (node:internal/streams/readable:1696:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T23:02:04.387Z","logger":"kafkajs","message":"[Consumer] Restarting the consumer in 300ms","retryTime":300,"groupId":"kafka-monitor-group"}[39m[22m
+[1m[31m[39m[22m
+{"level":"INFO","timestamp":"2025-04-01T23:02:04.690Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka-monitor-group"}
+{"level":"INFO","timestamp":"2025-04-01T23:02:04.725Z","logger":"kafkajs","message":"[Consumer] Stopped","groupId":"kafka-monitor-group"}
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T23:02:04.724Z","logger":"kafkajs","message":"[Consumer] Crash: KafkaJSConnectionClosedError: Closed connection","groupId":"kafka-monitor-group","stack":"KafkaJSConnectionClosedError: Closed connection\n    at Socket.onEnd (C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\connection.js:197:13)\n    at Socket.emit (node:events:531:35)\n    at endReadableNT (node:internal/streams/readable:1696:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T23:02:04.725Z","logger":"kafkajs","message":"[Consumer] Restarting the consumer in 300ms","retryTime":300,"groupId":"kafka-monitor-group"}[39m[22m
+[1m[31m[39m[22m
+{"level":"INFO","timestamp":"2025-04-01T23:02:05.034Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka-monitor-group"}
+{"level":"INFO","timestamp":"2025-04-01T23:02:05.083Z","logger":"kafkajs","message":"[Consumer] Stopped","groupId":"kafka-monitor-group"}
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T23:02:05.082Z","logger":"kafkajs","message":"[Consumer] Crash: KafkaJSConnectionClosedError: Closed connection","groupId":"kafka-monitor-group","stack":"KafkaJSConnectionClosedError: Closed connection\n    at Socket.onEnd (C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\connection.js:197:13)\n    at Socket.emit (node:events:531:35)\n    at endReadableNT (node:internal/streams/readable:1696:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T23:02:05.083Z","logger":"kafkajs","message":"[Consumer] Restarting the consumer in 300ms","retryTime":300,"groupId":"kafka-monitor-group"}[39m[22m
+[1m[31m[39m[22m
+{"level":"INFO","timestamp":"2025-04-01T23:02:05.389Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka-monitor-group"}
+{"level":"INFO","timestamp":"2025-04-01T23:02:05.393Z","logger":"kafkajs","message":"[Consumer] Stopped","groupId":"kafka-monitor-group"}
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T23:02:05.393Z","logger":"kafkajs","message":"[Consumer] Crash: KafkaJSConnectionClosedError: Closed connection","groupId":"kafka-monitor-group","stack":"KafkaJSConnectionClosedError: Closed connection\n    at Socket.onEnd (C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\connection.js:197:13)\n    at Socket.emit (node:events:531:35)\n    at endReadableNT (node:internal/streams/readable:1696:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T23:02:05.393Z","logger":"kafkajs","message":"[Consumer] Restarting the consumer in 300ms","retryTime":300,"groupId":"kafka-monitor-group"}[39m[22m
+[1m[31m[39m[22m
+{"level":"INFO","timestamp":"2025-04-01T23:02:05.699Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka-monitor-group"}
+{"level":"INFO","timestamp":"2025-04-01T23:02:05.702Z","logger":"kafkajs","message":"[Consumer] Stopped","groupId":"kafka-monitor-group"}
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T23:02:05.702Z","logger":"kafkajs","message":"[Consumer] Crash: KafkaJSConnectionClosedError: Closed connection","groupId":"kafka-monitor-group","stack":"KafkaJSConnectionClosedError: Closed connection\n    at Socket.onEnd (C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\connection.js:197:13)\n    at Socket.emit (node:events:531:35)\n    at endReadableNT (node:internal/streams/readable:1696:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T23:02:05.702Z","logger":"kafkajs","message":"[Consumer] Restarting the consumer in 300ms","retryTime":300,"groupId":"kafka-monitor-group"}[39m[22m
+[1m[31m[39m[22m
+{"level":"INFO","timestamp":"2025-04-01T23:02:06.010Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka-monitor-group"}
+{"level":"INFO","timestamp":"2025-04-01T23:02:06.015Z","logger":"kafkajs","message":"[Consumer] Stopped","groupId":"kafka-monitor-group"}
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T23:02:06.015Z","logger":"kafkajs","message":"[Consumer] Crash: KafkaJSConnectionClosedError: Closed connection","groupId":"kafka-monitor-group","stack":"KafkaJSConnectionClosedError: Closed connection\n    at Socket.onEnd (C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\connection.js:197:13)\n    at Socket.emit (node:events:531:35)\n    at endReadableNT (node:internal/streams/readable:1696:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T23:02:06.015Z","logger":"kafkajs","message":"[Consumer] Restarting the consumer in 300ms","retryTime":300,"groupId":"kafka-monitor-group"}[39m[22m
+[1m[31m[39m[22m
+{"level":"INFO","timestamp":"2025-04-01T23:02:06.318Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka-monitor-group"}
+{"level":"INFO","timestamp":"2025-04-01T23:02:06.321Z","logger":"kafkajs","message":"[Consumer] Stopped","groupId":"kafka-monitor-group"}
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T23:02:06.321Z","logger":"kafkajs","message":"[Consumer] Crash: KafkaJSConnectionClosedError: Closed connection","groupId":"kafka-monitor-group","stack":"KafkaJSConnectionClosedError: Closed connection\n    at Socket.onEnd (C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\connection.js:197:13)\n    at Socket.emit (node:events:531:35)\n    at endReadableNT (node:internal/streams/readable:1696:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T23:02:06.321Z","logger":"kafkajs","message":"[Consumer] Restarting the consumer in 300ms","retryTime":300,"groupId":"kafka-monitor-group"}[39m[22m
+[1m[31m[39m[22m
+{"level":"INFO","timestamp":"2025-04-01T23:02:06.625Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka-monitor-group"}
+{"level":"INFO","timestamp":"2025-04-01T23:02:06.628Z","logger":"kafkajs","message":"[Consumer] Stopped","groupId":"kafka-monitor-group"}
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T23:02:06.628Z","logger":"kafkajs","message":"[Consumer] Crash: KafkaJSConnectionClosedError: Closed connection","groupId":"kafka-monitor-group","stack":"KafkaJSConnectionClosedError: Closed connection\n    at Socket.onEnd (C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\connection.js:197:13)\n    at Socket.emit (node:events:531:35)\n    at endReadableNT (node:internal/streams/readable:1696:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T23:02:06.628Z","logger":"kafkajs","message":"[Consumer] Restarting the consumer in 300ms","retryTime":300,"groupId":"kafka-monitor-group"}[39m[22m
+[1m[31m[39m[22m
+{"level":"INFO","timestamp":"2025-04-01T23:02:06.936Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka-monitor-group"}
+{"level":"INFO","timestamp":"2025-04-01T23:02:06.940Z","logger":"kafkajs","message":"[Consumer] Stopped","groupId":"kafka-monitor-group"}
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T23:02:06.939Z","logger":"kafkajs","message":"[Consumer] Crash: KafkaJSConnectionClosedError: Closed connection","groupId":"kafka-monitor-group","stack":"KafkaJSConnectionClosedError: Closed connection\n    at Socket.onEnd (C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\connection.js:197:13)\n    at Socket.emit (node:events:531:35)\n    at endReadableNT (node:internal/streams/readable:1696:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T23:02:06.940Z","logger":"kafkajs","message":"[Consumer] Restarting the consumer in 300ms","retryTime":300,"groupId":"kafka-monitor-group"}[39m[22m
+[1m[31m[39m[22m
+{"level":"INFO","timestamp":"2025-04-01T23:02:07.248Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka-monitor-group"}
+{"level":"INFO","timestamp":"2025-04-01T23:02:07.251Z","logger":"kafkajs","message":"[Consumer] Stopped","groupId":"kafka-monitor-group"}
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T23:02:07.251Z","logger":"kafkajs","message":"[Consumer] Crash: KafkaJSConnectionClosedError: Closed connection","groupId":"kafka-monitor-group","stack":"KafkaJSConnectionClosedError: Closed connection\n    at Socket.onEnd (C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\connection.js:197:13)\n    at Socket.emit (node:events:531:35)\n    at endReadableNT (node:internal/streams/readable:1696:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T23:02:07.251Z","logger":"kafkajs","message":"[Consumer] Restarting the consumer in 300ms","retryTime":300,"groupId":"kafka-monitor-group"}[39m[22m
+[1m[31m[39m[22m
+{"level":"INFO","timestamp":"2025-04-01T23:02:07.559Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka-monitor-group"}
+{"level":"INFO","timestamp":"2025-04-01T23:02:07.564Z","logger":"kafkajs","message":"[Consumer] Stopped","groupId":"kafka-monitor-group"}
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T23:02:07.564Z","logger":"kafkajs","message":"[Consumer] Crash: KafkaJSConnectionClosedError: Closed connection","groupId":"kafka-monitor-group","stack":"KafkaJSConnectionClosedError: Closed connection\n    at Socket.onEnd (C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\connection.js:197:13)\n    at Socket.emit (node:events:531:35)\n    at endReadableNT (node:internal/streams/readable:1696:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T23:02:07.564Z","logger":"kafkajs","message":"[Consumer] Restarting the consumer in 300ms","retryTime":300,"groupId":"kafka-monitor-group"}[39m[22m
+[1m[31m[39m[22m
+{"level":"INFO","timestamp":"2025-04-01T23:02:07.868Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka-monitor-group"}
+{"level":"INFO","timestamp":"2025-04-01T23:02:07.871Z","logger":"kafkajs","message":"[Consumer] Stopped","groupId":"kafka-monitor-group"}
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T23:02:07.871Z","logger":"kafkajs","message":"[Consumer] Crash: KafkaJSConnectionClosedError: Closed connection","groupId":"kafka-monitor-group","stack":"KafkaJSConnectionClosedError: Closed connection\n    at Socket.onEnd (C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\connection.js:197:13)\n    at Socket.emit (node:events:531:35)\n    at endReadableNT (node:internal/streams/readable:1696:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T23:02:07.871Z","logger":"kafkajs","message":"[Consumer] Restarting the consumer in 300ms","retryTime":300,"groupId":"kafka-monitor-group"}[39m[22m
+[1m[31m[39m[22m
+{"level":"INFO","timestamp":"2025-04-01T23:02:08.182Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka-monitor-group"}
+{"level":"INFO","timestamp":"2025-04-01T23:02:08.186Z","logger":"kafkajs","message":"[Consumer] Stopped","groupId":"kafka-monitor-group"}
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T23:02:08.185Z","logger":"kafkajs","message":"[Consumer] Crash: KafkaJSConnectionClosedError: Closed connection","groupId":"kafka-monitor-group","stack":"KafkaJSConnectionClosedError: Closed connection\n    at Socket.onEnd (C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\connection.js:197:13)\n    at Socket.emit (node:events:531:35)\n    at endReadableNT (node:internal/streams/readable:1696:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T23:02:08.186Z","logger":"kafkajs","message":"[Consumer] Restarting the consumer in 300ms","retryTime":300,"groupId":"kafka-monitor-group"}[39m[22m
+[1m[31m[39m[22m
+{"level":"INFO","timestamp":"2025-04-01T23:02:08.492Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka-monitor-group"}
+{"level":"INFO","timestamp":"2025-04-01T23:02:08.495Z","logger":"kafkajs","message":"[Consumer] Stopped","groupId":"kafka-monitor-group"}
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T23:02:08.495Z","logger":"kafkajs","message":"[Consumer] Crash: KafkaJSConnectionClosedError: Closed connection","groupId":"kafka-monitor-group","stack":"KafkaJSConnectionClosedError: Closed connection\n    at Socket.onEnd (C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\connection.js:197:13)\n    at Socket.emit (node:events:531:35)\n    at endReadableNT (node:internal/streams/readable:1696:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T23:02:08.495Z","logger":"kafkajs","message":"[Consumer] Restarting the consumer in 300ms","retryTime":300,"groupId":"kafka-monitor-group"}[39m[22m
+[1m[31m[39m[22m
+{"level":"INFO","timestamp":"2025-04-01T23:02:08.802Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka-monitor-group"}
+{"level":"INFO","timestamp":"2025-04-01T23:02:08.805Z","logger":"kafkajs","message":"[Consumer] Stopped","groupId":"kafka-monitor-group"}
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T23:02:08.805Z","logger":"kafkajs","message":"[Consumer] Crash: KafkaJSConnectionClosedError: Closed connection","groupId":"kafka-monitor-group","stack":"KafkaJSConnectionClosedError: Closed connection\n    at Socket.onEnd (C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\connection.js:197:13)\n    at Socket.emit (node:events:531:35)\n    at endReadableNT (node:internal/streams/readable:1696:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T23:02:08.805Z","logger":"kafkajs","message":"[Consumer] Restarting the consumer in 300ms","retryTime":300,"groupId":"kafka-monitor-group"}[39m[22m
+[1m[31m[39m[22m
+{"level":"INFO","timestamp":"2025-04-01T23:02:09.113Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka-monitor-group"}
+{"level":"INFO","timestamp":"2025-04-01T23:02:09.116Z","logger":"kafkajs","message":"[Consumer] Stopped","groupId":"kafka-monitor-group"}
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T23:02:09.116Z","logger":"kafkajs","message":"[Consumer] Crash: KafkaJSConnectionClosedError: Closed connection","groupId":"kafka-monitor-group","stack":"KafkaJSConnectionClosedError: Closed connection\n    at Socket.onEnd (C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\connection.js:197:13)\n    at Socket.emit (node:events:531:35)\n    at endReadableNT (node:internal/streams/readable:1696:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T23:02:09.116Z","logger":"kafkajs","message":"[Consumer] Restarting the consumer in 300ms","retryTime":300,"groupId":"kafka-monitor-group"}[39m[22m
+[1m[31m[39m[22m
+{"level":"INFO","timestamp":"2025-04-01T23:02:09.423Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka-monitor-group"}
+{"level":"INFO","timestamp":"2025-04-01T23:02:09.426Z","logger":"kafkajs","message":"[Consumer] Stopped","groupId":"kafka-monitor-group"}
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T23:02:09.426Z","logger":"kafkajs","message":"[Consumer] Crash: KafkaJSConnectionClosedError: Closed connection","groupId":"kafka-monitor-group","stack":"KafkaJSConnectionClosedError: Closed connection\n    at Socket.onEnd (C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\connection.js:197:13)\n    at Socket.emit (node:events:531:35)\n    at endReadableNT (node:internal/streams/readable:1696:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T23:02:09.426Z","logger":"kafkajs","message":"[Consumer] Restarting the consumer in 300ms","retryTime":300,"groupId":"kafka-monitor-group"}[39m[22m
+[1m[31m[39m[22m
+{"level":"INFO","timestamp":"2025-04-01T23:02:09.734Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka-monitor-group"}
+{"level":"INFO","timestamp":"2025-04-01T23:02:09.737Z","logger":"kafkajs","message":"[Consumer] Stopped","groupId":"kafka-monitor-group"}
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T23:02:09.737Z","logger":"kafkajs","message":"[Consumer] Crash: KafkaJSConnectionClosedError: Closed connection","groupId":"kafka-monitor-group","stack":"KafkaJSConnectionClosedError: Closed connection\n    at Socket.onEnd (C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\connection.js:197:13)\n    at Socket.emit (node:events:531:35)\n    at endReadableNT (node:internal/streams/readable:1696:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T23:02:09.737Z","logger":"kafkajs","message":"[Consumer] Restarting the consumer in 300ms","retryTime":300,"groupId":"kafka-monitor-group"}[39m[22m
+[1m[31m[39m[22m
+{"level":"INFO","timestamp":"2025-04-01T23:02:10.046Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka-monitor-group"}
+{"level":"INFO","timestamp":"2025-04-01T23:02:10.050Z","logger":"kafkajs","message":"[Consumer] Stopped","groupId":"kafka-monitor-group"}
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T23:02:10.050Z","logger":"kafkajs","message":"[Consumer] Crash: KafkaJSConnectionClosedError: Closed connection","groupId":"kafka-monitor-group","stack":"KafkaJSConnectionClosedError: Closed connection\n    at Socket.onEnd (C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\connection.js:197:13)\n    at Socket.emit (node:events:531:35)\n    at endReadableNT (node:internal/streams/readable:1696:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T23:02:10.050Z","logger":"kafkajs","message":"[Consumer] Restarting the consumer in 300ms","retryTime":300,"groupId":"kafka-monitor-group"}[39m[22m
+[1m[31m[39m[22m
+{"level":"INFO","timestamp":"2025-04-01T23:02:10.357Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka-monitor-group"}
+{"level":"INFO","timestamp":"2025-04-01T23:02:10.363Z","logger":"kafkajs","message":"[Consumer] Stopped","groupId":"kafka-monitor-group"}
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T23:02:10.363Z","logger":"kafkajs","message":"[Consumer] Crash: KafkaJSConnectionClosedError: Closed connection","groupId":"kafka-monitor-group","stack":"KafkaJSConnectionClosedError: Closed connection\n    at Socket.onEnd (C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\connection.js:197:13)\n    at Socket.emit (node:events:531:35)\n    at endReadableNT (node:internal/streams/readable:1696:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T23:02:10.363Z","logger":"kafkajs","message":"[Consumer] Restarting the consumer in 300ms","retryTime":300,"groupId":"kafka-monitor-group"}[39m[22m
+[1m[31m[39m[22m
+{"level":"INFO","timestamp":"2025-04-01T23:02:10.667Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka-monitor-group"}
+{"level":"INFO","timestamp":"2025-04-01T23:02:10.671Z","logger":"kafkajs","message":"[Consumer] Stopped","groupId":"kafka-monitor-group"}
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T23:02:10.671Z","logger":"kafkajs","message":"[Consumer] Crash: KafkaJSConnectionClosedError: Closed connection","groupId":"kafka-monitor-group","stack":"KafkaJSConnectionClosedError: Closed connection\n    at Socket.onEnd (C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\connection.js:197:13)\n    at Socket.emit (node:events:531:35)\n    at endReadableNT (node:internal/streams/readable:1696:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T23:02:10.671Z","logger":"kafkajs","message":"[Consumer] Restarting the consumer in 300ms","retryTime":300,"groupId":"kafka-monitor-group"}[39m[22m
+[1m[31m[39m[22m
+{"level":"INFO","timestamp":"2025-04-01T23:02:10.978Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka-monitor-group"}
+{"level":"INFO","timestamp":"2025-04-01T23:02:10.980Z","logger":"kafkajs","message":"[Consumer] Stopped","groupId":"kafka-monitor-group"}
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T23:02:10.980Z","logger":"kafkajs","message":"[Consumer] Crash: KafkaJSConnectionClosedError: Closed connection","groupId":"kafka-monitor-group","stack":"KafkaJSConnectionClosedError: Closed connection\n    at Socket.onEnd (C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\connection.js:197:13)\n    at Socket.emit (node:events:531:35)\n    at endReadableNT (node:internal/streams/readable:1696:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T23:02:10.980Z","logger":"kafkajs","message":"[Consumer] Restarting the consumer in 300ms","retryTime":300,"groupId":"kafka-monitor-group"}[39m[22m
+[1m[31m[39m[22m
+{"level":"INFO","timestamp":"2025-04-01T23:02:11.289Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka-monitor-group"}
+{"level":"INFO","timestamp":"2025-04-01T23:02:11.292Z","logger":"kafkajs","message":"[Consumer] Stopped","groupId":"kafka-monitor-group"}
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T23:02:11.292Z","logger":"kafkajs","message":"[Consumer] Crash: KafkaJSConnectionClosedError: Closed connection","groupId":"kafka-monitor-group","stack":"KafkaJSConnectionClosedError: Closed connection\n    at Socket.onEnd (C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\connection.js:197:13)\n    at Socket.emit (node:events:531:35)\n    at endReadableNT (node:internal/streams/readable:1696:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T23:02:11.292Z","logger":"kafkajs","message":"[Consumer] Restarting the consumer in 300ms","retryTime":300,"groupId":"kafka-monitor-group"}[39m[22m
+[1m[31m[39m[22m
+{"level":"INFO","timestamp":"2025-04-01T23:02:11.598Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka-monitor-group"}
+{"level":"INFO","timestamp":"2025-04-01T23:02:11.602Z","logger":"kafkajs","message":"[Consumer] Stopped","groupId":"kafka-monitor-group"}
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T23:02:11.602Z","logger":"kafkajs","message":"[Consumer] Crash: KafkaJSConnectionClosedError: Closed connection","groupId":"kafka-monitor-group","stack":"KafkaJSConnectionClosedError: Closed connection\n    at Socket.onEnd (C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\connection.js:197:13)\n    at Socket.emit (node:events:531:35)\n    at endReadableNT (node:internal/streams/readable:1696:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T23:02:11.602Z","logger":"kafkajs","message":"[Consumer] Restarting the consumer in 300ms","retryTime":300,"groupId":"kafka-monitor-group"}[39m[22m
+[1m[31m[39m[22m
+{"level":"INFO","timestamp":"2025-04-01T23:02:11.909Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka-monitor-group"}
+{"level":"INFO","timestamp":"2025-04-01T23:02:11.912Z","logger":"kafkajs","message":"[Consumer] Stopped","groupId":"kafka-monitor-group"}
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T23:02:11.912Z","logger":"kafkajs","message":"[Consumer] Crash: KafkaJSConnectionClosedError: Closed connection","groupId":"kafka-monitor-group","stack":"KafkaJSConnectionClosedError: Closed connection\n    at Socket.onEnd (C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\connection.js:197:13)\n    at Socket.emit (node:events:531:35)\n    at endReadableNT (node:internal/streams/readable:1696:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T23:02:11.912Z","logger":"kafkajs","message":"[Consumer] Restarting the consumer in 300ms","retryTime":300,"groupId":"kafka-monitor-group"}[39m[22m
+[1m[31m[39m[22m
+{"level":"INFO","timestamp":"2025-04-01T23:02:12.217Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka-monitor-group"}
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T23:02:12.741Z","logger":"kafkajs","message":"[Connection] Response Metadata(key: 3, version: 6)","broker":"127.0.0.1:9092","clientId":"kafka-monitor","error":"Replication-factor is invalid","correlationId":2584,"size":83}[39m[22m
+[1m[31m[39m[22m
+{"level":"INFO","timestamp":"2025-04-01T23:02:12.744Z","logger":"kafkajs","message":"[Consumer] Stopped","groupId":"kafka-monitor-group"}
+[1m[31m{"level":"ERROR","timestamp":"2025-04-01T23:02:12.744Z","logger":"kafkajs","message":"[Consumer] Crash: KafkaJSProtocolError: Replication-factor is invalid","groupId":"kafka-monitor-group","stack":"KafkaJSProtocolError: Replication-factor is invalid\n    at createErrorFromCode (C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\protocol\\error.js:581:10)\n    at Object.parse (C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\protocol\\requests\\metadata\\v0\\response.js:55:11)\n    at Connection.send (C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\network\\connection.js:433:35)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at Broker.[private:Broker:sendRequest] (C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\broker\\index.js:904:14)\n    at Broker.metadata (C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\broker\\index.js:177:12)\n    at C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\cluster\\brokerPool.js:158:25\n    at C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\cluster\\index.js:115:14\n    at Cluster.refreshMetadataIfNecessary (C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\cluster\\index.js:180:5)\n    at ConsumerGroup.connect (C:\\projects\\spesia_webapp\\node_modules\\.pnpm\\kafkajs@2.2.4\\node_modules\\kafkajs\\src\\consumer\\consumerGroup.js:161:5)"}[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 73.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (0f9dba229f8ee4f7f21d)
+[36mType-checking in progress...[39m
+[32mNo errors found.[39m
+[32m[Nest] 26672  - [39m02/04/2025, 18:29:45 [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[1m[31m{"level":"WARN","timestamp":"2025-04-02T21:29:45.181Z","logger":"kafkajs","message":"KafkaJS v2.0.0 switched default partitioner. To retain the same partitioning behavior as in previous versions, create the producer with the option \"createPartitioner: Partitioners.LegacyPartitioner\". See the migration guide at https://kafka.js.org/docs/migration-guide-v2.0.0#producer-new-default-partitioner for details. Silence this warning by setting the environment variable \"KAFKAJS_NO_PARTITIONER_WARNING=1\""}[39m[22m
+[1m[31m[39m[22m
+[32m[Nest] 26672  - [39m02/04/2025, 18:29:45 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +70ms[39m
+[32m[Nest] 26672  - [39m02/04/2025, 18:29:45 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMailerModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 26672  - [39m02/04/2025, 18:29:45 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mClientsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 26672  - [39m02/04/2025, 18:29:45 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthJwtModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 26672  - [39m02/04/2025, 18:29:45 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mThrottlerModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 26672  - [39m02/04/2025, 18:29:45 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 26672  - [39m02/04/2025, 18:29:45 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 26672  - [39m02/04/2025, 18:29:45 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mKafkaModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 26672  - [39m02/04/2025, 18:29:45 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mEnvModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 26672  - [39m02/04/2025, 18:29:45 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMailerCoreModule dependencies initialized[39m[38;5;3m +771ms[39m
+[32m[Nest] 26672  - [39m02/04/2025, 18:29:45 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 26672  - [39m02/04/2025, 18:29:45 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCacheModule dependencies initialized[39m[38;5;3m +4ms[39m
+[1m[31m[31m[Nest] 26672  - [39m[31m02/04/2025, 18:29:46 [31m  ERROR[39m[31m [38;5;3m[TypeOrmModule] [39m[31m[31mUnable to connect to the database. Retrying (1)...[39m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mAggregateError: [39m[22m
+[1m[31m    at internalConnectMultiple (node:net:1116:18)[39m[22m
+[1m[31m    at afterConnectMultiple (node:net:1680:7)[39m[22m
+[1m[31m[39m[22m
+[32m[Nest] 26672  - [39m02/04/2025, 18:29:46 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mI18nModule dependencies initialized[39m[38;5;3m +16ms[39m
+[32m[Nest] 26672  - [39m02/04/2025, 18:29:46 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCoreApiSharedModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 26672  - [39m02/04/2025, 18:29:46 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+[1m[31m[31m[Nest] 26672  - [39m[31m02/04/2025, 18:29:49 [31m  ERROR[39m[31m [38;5;3m[TypeOrmModule] [39m[31m[31mUnable to connect to the database. Retrying (2)...[39m[31m[39m[22m
+[1m[31mAggregateError: [39m[22m
+[1m[31m    at internalConnectMultiple (node:net:1116:18)[39m[22m
+[1m[31m    at afterConnectMultiple (node:net:1680:7)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 26672  - [39m[31m02/04/2025, 18:29:52 [31m  ERROR[39m[31m [38;5;3m[TypeOrmModule] [39m[31m[31mUnable to connect to the database. Retrying (3)...[39m[31m[39m[22m
+[1m[31mAggregateError: [39m[22m
+[1m[31m    at internalConnectMultiple (node:net:1116:18)[39m[22m
+[1m[31m    at afterConnectMultiple (node:net:1680:7)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 26672  - [39m[31m02/04/2025, 18:29:55 [31m  ERROR[39m[31m [38;5;3m[TypeOrmModule] [39m[31m[31mUnable to connect to the database. Retrying (4)...[39m[31m[39m[22m
+[1m[31mAggregateError: [39m[22m
+[1m[31m    at internalConnectMultiple (node:net:1116:18)[39m[22m
+[1m[31m    at afterConnectMultiple (node:net:1680:7)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 26672  - [39m[31m02/04/2025, 18:29:58 [31m  ERROR[39m[31m [38;5;3m[TypeOrmModule] [39m[31m[31mUnable to connect to the database. Retrying (5)...[39m[31m[39m[22m
+[1m[31mAggregateError: [39m[22m
+[1m[31m    at internalConnectMultiple (node:net:1116:18)[39m[22m
+[1m[31m    at afterConnectMultiple (node:net:1680:7)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 26672  - [39m[31m02/04/2025, 18:30:01 [31m  ERROR[39m[31m [38;5;3m[TypeOrmModule] [39m[31m[31mUnable to connect to the database. Retrying (6)...[39m[31m[39m[22m
+[1m[31mAggregateError: [39m[22m
+[1m[31m    at internalConnectMultiple (node:net:1116:18)[39m[22m
+[1m[31m    at afterConnectMultiple (node:net:1680:7)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 26672  - [39m[31m02/04/2025, 18:30:04 [31m  ERROR[39m[31m [38;5;3m[TypeOrmModule] [39m[31m[31mUnable to connect to the database. Retrying (7)...[39m[31m[39m[22m
+[1m[31mAggregateError: [39m[22m
+[1m[31m    at internalConnectMultiple (node:net:1116:18)[39m[22m
+[1m[31m    at afterConnectMultiple (node:net:1680:7)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 26672  - [39m[31m02/04/2025, 18:30:07 [31m  ERROR[39m[31m [38;5;3m[TypeOrmModule] [39m[31m[31mUnable to connect to the database. Retrying (8)...[39m[31m[39m[22m
+[1m[31mAggregateError: [39m[22m
+[1m[31m    at internalConnectMultiple (node:net:1116:18)[39m[22m
+[1m[31m    at afterConnectMultiple (node:net:1680:7)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 26672  - [39m[31m02/04/2025, 18:30:10 [31m  ERROR[39m[31m [38;5;3m[TypeOrmModule] [39m[31m[31mUnable to connect to the database. Retrying (9)...[39m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mAggregateError: [39m[22m
+[1m[31m    at internalConnectMultiple (node:net:1116:18)[39m[22m
+[1m[31m    at afterConnectMultiple (node:net:1680:7)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 26672  - [39m[31m02/04/2025, 18:30:10 [31m  ERROR[39m[31m [38;5;3m[ExceptionHandler] [39m[31mAggregateError: [39m[22m
+[1m[31m[90m    at internalConnectMultiple (node:net:1116:18)[39m[31m[39m[22m
+[1m[31m[90m    at afterConnectMultiple (node:net:1680:7)[39m[31m {[39m[22m
+[1m[31m  code: [32m'ECONNREFUSED'[39m[31m,[39m[22m
+[1m[31m  [errors]: [[39m[22m
+[1m[31m    Error: connect ECONNREFUSED ::1:5411[39m[22m
+[1m[31m    [90m    at createConnectionError (node:net:1643:14)[39m[31m[39m[22m
+[1m[31m    [90m    at afterConnectMultiple (node:net:1673:16)[39m[31m {[39m[22m
+[1m[31m      errno: [33m-4078[39m[31m,[39m[22m
+[1m[31m      code: [32m'ECONNREFUSED'[39m[31m,[39m[22m
+[1m[31m      syscall: [32m'connect'[39m[31m,[39m[22m
+[1m[31m      address: [32m'::1'[39m[31m,[39m[22m
+[1m[31m      port: [33m5411[39m[31m[39m[22m
+[1m[31m    },[39m[22m
+[1m[31m    Error: connect ECONNREFUSED 127.0.0.1:5411[39m[22m
+[1m[31m    [90m    at createConnectionError (node:net:1643:14)[39m[31m[39m[22m
+[1m[31m    [90m    at afterConnectMultiple (node:net:1673:16)[39m[31m {[39m[22m
+[1m[31m      errno: [33m-4078[39m[31m,[39m[22m
+[1m[31m      code: [32m'ECONNREFUSED'[39m[31m,[39m[22m
+[1m[31m      syscall: [32m'connect'[39m[31m,[39m[22m
+[1m[31m      address: [32m'127.0.0.1'[39m[31m,[39m[22m
+[1m[31m      port: [33m5411[39m[31m[39m[22m
+[1m[31m    }[39m[22m
+[1m[31m  ][39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[7m[1m[36m NX [39m[22m[27m [1mProcess exited with code 1, waiting for changes to restart...[22m

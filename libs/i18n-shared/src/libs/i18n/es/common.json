@@ -1,0 +1,14 @@
+{
+    "errors": {
+        "serverError": "Error interno del servidor",
+        "invalidCredentials": "Credenciales inválidas",
+        "invalidToken": "Token de actualización no válido o vencido",
+        "accountNotConfirmed": "",
+        "notFound": "No encontrado"
+    },
+    "notifications": {
+        "welcome": "¡Bienvenido a Spesia, {{name}}!",
+        "logout": "Has cerrado sesión exitosamente.",
+        "generic_error": "Algo salió mal al enviar tu notificación."
+    }
+}

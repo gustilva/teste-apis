@@ -1,0 +1,32 @@
+{
+    "errors": {
+        "serverError": "Internal server error",
+        "invalidCredentials": "Invalid credentials",
+        "invalidToken": "Invalid or expired refresh token.",
+        "notFound": "Not found",
+        "generic_error": "Something went wrong while sending your notification."
+
+    },
+    "user:": {
+        "errors": {
+            "notFound": "User not found",
+            "notFoundWithId": "User not found with ID: {{id}}",
+            "notFoundWithEmail": "User not found with email: {{email}}",
+            "notFoundWithUsername": "User not found with username: {{username}}",
+            "accountNotConfirmed": "Your account has not been confirmed yet. Please confirm your account to continue."
+
+        }
+    },
+    "notification": {
+        "default": {
+            "welcome": "Welcome, {{name}}!",
+            "logout": "Logout successful!",
+            "generic_error": "Something went wrong while sending your notification."
+
+        },
+        "errors": {
+            "notFound": "Notification not found",
+            "notFoundWithId": "Notification not found with ID: {{id}}"
+        }
+    }
+}

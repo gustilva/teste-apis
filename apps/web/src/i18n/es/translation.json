@@ -1,0 +1,22 @@
+{
+    "welcome": "Bienvenido",
+    "logout": "Salir",
+    "login": {
+        "title": "Iniciar sesión",
+        "email": "Correo electrónico",
+        "password": "Contraseña",
+        "submit": "Submetir",
+        "failed": "Inicio de sesión fallido"
+    },
+    "home": {
+        "title": "Inicio"
+    },
+    "unauthorized": {
+        "title": "No autorizado",
+        "message": "No tiene permiso para acceder a esta página"
+    },
+    "admin": {
+        "title": "Panel de administración",
+        "message": "Solo los administradores pueden ver esto"
+    }
+}

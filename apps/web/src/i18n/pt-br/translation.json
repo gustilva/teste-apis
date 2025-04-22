@@ -1,0 +1,44 @@
+{
+    "welcome": "Bem-vindo",
+    "logout": "Sair",
+    "login": {
+        "title": "Entrar",
+        "email": "Email",
+        "password": "Senha",
+        "submit": "Entrar",
+        "failed": "Falha ao entrar",
+        "accountNotConfirmed": "Sua conta ainda não foi confirmada. Por favor, confirme sua conta para continuar.",
+        "accountAlreadyConfirmed": "Sua conta já foi confirmada.",
+        "accountAlreadyExists": "Já existe uma conta com o email: {{email}}",
+        "accountAlreadyExistsWithUsername": "Já existe uma conta com o nome de usuário: {{username}}",
+        "resendConfirmationEmail": "Reenviar email de confirmação",
+        "accountAlreadyExistsWithEmail": "Já existe uma conta com o email: {{email}}",
+        "emailSent": "Email de confirmação enviado, cheque sua caixa de entrada",
+        "forgotPassword":{
+            "title": "Esqueci minha senha",
+            "body":"Digite seu email para receber o link de redefinição de senha",
+            "button":"Enviar Link",
+            "buttonBack":"Voltar para Login",
+            "success": {
+                "title": "Verifique seu email",
+                "message": "Enviamos um link de redefinição de senha para seu email. Por favor, verifique sua caixa de entrada."
+            },
+            "invalidResetLink":{
+                "title": "Link de redefinição de senha inválido",
+                "message": "O link de redefinição de senha é inválido ou expirou. Por favor, solicite um novo link.",
+                "buttonRequest": "Solicitar Novo Link"
+            }
+        }
+    },
+    "home": {
+        "title": "Inicio"
+    },
+    "unauthorized": {
+        "title": "Não autorizado",
+        "message": "Você não tem permissão para acessar esta página"
+    },
+    "admin": {
+        "title": "Admin Dashboard",
+        "message": "Somente administradores podem ver isso"
+    }
+}

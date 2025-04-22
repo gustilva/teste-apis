@@ -1,0 +1,50 @@
+{
+    "errors": {
+        "serverError": "Error interno do Servidor",
+        "notFound": "Não encontrado",
+        "genericError": "Ocorreu um erro inesperado. Tente novamente mais tarde."
+    },
+    "auth": {
+        "errors": {
+            "invalidCredentials": "Credencias inválidas",
+            "invalidToken": "Token expirado ou inválido",
+            "invalidRefreshToken": "Refresh Token de atualização inválido ou expirado"
+        }
+    },
+    "user": {
+        "errors": {
+            "notFound": "Usuário não encontrado",
+            "notFoundWithId": "Usuário não encontrado com o ID: {{id}}",
+            "notFoundWithEmail": "Usuário não encontrado com o email: {{email}}",
+            "notFoundWithUsername": "Usuário não encontrado com o nome de usuário: {{username}}"
+        },
+        "notification": {
+            "errors": {
+                "sendConfirmationEmailError": "Erro ao enviar email de confirmação",
+                "accountAlreadyExists": "Já existe uma conta com o email: {{email}}",
+                "accountAlreadyExistsWithUsername": "Já existe uma conta com o nome de usuário: {{username}}",
+                "accountAlreadyExistsWithEmail": "Já existe uma conta com o email: {{email}}",
+                "accountNotConfirmed": "Sua conta ainda não foi confirmada. Acesse seu email e click no link para continuar."
+            },
+            "success": {
+                "accountAlreadyConfirmed": "Sua conta já foi confirmada.",
+                "sendConfirmationEmail": "Enviar email de confirmação",
+                "sendConfirmationEmailSuccess": "Email de confirmação enviado com sucesso"
+            }
+        },
+        "success": {
+            "accountConfirmed": "Sua conta foi confirmada com sucesso!"
+        }
+    },
+    "notification": {
+        "default": {
+            "welcome": "Bem vindo, {{name}}!",
+            "logout": "Logout realizado com sucesso!",
+            "generic_error": "Aconteceu um erro inesperado. Tente novamente mais tarde."
+        },
+        "errors": {
+            "notFound": "Notificação não encontrada",
+            "notFoundWithId": "Notificação não encontrada com o ID: {{id}}"
+        }
+    }
+}

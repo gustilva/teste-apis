@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+        "jsx": "react-jsx",
+        "allowJs": false,
+        "esModuleInterop": false,
+        "allowSyntheticDefaultImports": true,
+        "strict": true,
+        "target": "ES2022",
+        "module": "ESNext",
+        "skipLibCheck": true,
+        "lib": ["esNext", "dom"],
+        "allowImportingTsExtensions": true,
+        "isolatedModules": true,
+        "moduleDetection": "force",
+        "noEmit": true,
+        "noImplicitAny": false,
+        "strictNullChecks": false,
+        "useDefineForClassFields": true,
+        "skipDefaultLibCheck": true,
+        "noUnusedLocals": false,
+        "noUnusedParameters": false,
+        "noFallthroughCasesInSwitch": true,
+        "resolveJsonModule": true
+    },
+    "files": [],
+    "include": [],
+    "references": [
+        {
+            "path": "./tsconfig.app.json"
+        }
+    ],
+    "extends": "../../tsconfig.base.json"
+}

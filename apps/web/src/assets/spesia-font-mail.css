@@ -1,0 +1,129 @@
+@font-face {
+    font-weight: 100;
+    font-family: 'Spesia';
+    font-style: normal;
+    src: local('Spesia Thin'),
+    local('AvenirNextLTProThin'),
+    url('/assets/fonts/AvenirNext/AvenirNextLTPro-Thin.eot?#iefix') format('embedded-opentype'),
+    url('/assets/fonts/AvenirNext/AvenirNextLTPro-Thin.woff2') format('woff2'),
+    url('/assets/fonts/AvenirNext/AvenirNextLTPro-Thin.woff') format('woff'),
+    url('/assets/fonts/AvenirNext/AvenirNextLTPro-Thin.ttf') format('truetype'),
+    url('/assets/fonts/AvenirNext/AvenirNextLTPro-Thin.svg#AvenirNextLTPro-Thin') format('svg');
+}
+
+@font-face {
+    font-weight: 200;
+    font-family: 'spesia';
+    font-style: normal;
+    src: local('spesia Ultralight'),
+    local('AvenirNextLTProUltralight'),
+    url('/assets/fonts/AvenirNext/AvenirNextLTPro-Ultralight.eot?#iefix') format('embedded-opentype'),
+    url('/assets/fonts/AvenirNext/AvenirNextLTPro-Ultralight.woff2') format('woff2'),
+    url('/assets/fonts/AvenirNext/AvenirNextLTPro-Ultralight.woff') format('woff'),
+    url('/assets/fonts/AvenirNext/AvenirNextLTPro-Ultralight.ttf') format('truetype'),
+    url('/assets/fonts/AvenirNext/AvenirNextLTPro-Ultralight.svg#AvenirNextLTPro-Ultralight') format('svg');
+}
+
+@font-face {
+    font-weight: 300;
+    font-family: 'spesia';
+    font-style: normal;
+    src: local('spesia Light'),
+    local('AvenirNextLTProLight'),
+    url('/assets/fonts/AvenirNext/AvenirNextLTPro-Light.eot?#iefix') format('embedded-opentype'),
+    url('/assets/fonts/AvenirNext/AvenirNextLTPro-Light.woff2') format('woff2'),
+    url('/assets/fonts/AvenirNext/AvenirNextLTPro-Light.woff') format('woff'),
+    url('/assets/fonts/AvenirNext/AvenirNextLTPro-Light.ttf') format('truetype'),
+    url('/assets/fonts/AvenirNext/AvenirNextLTPro-Light.svg#AvenirNextLTPro-Light') format('svg');
+}
+
+@font-face {
+    font-weight: 400;
+    font-family: 'spesia';
+    font-style: normal;
+    src: local('spesia Regular'),
+    local('AvenirNextLTProRegular'),
+    url('/assets/fonts/AvenirNext/AvenirNextLTPro-Regular.eot?#iefix') format('embedded-opentype'),
+    url('/assets/fonts/AvenirNext/AvenirNextLTPro-Regular.woff2') format('woff2'),
+    url('/assets/fonts/AvenirNext/AvenirNextLTPro-Regular.woff') format('woff'),
+    url('/assets/fonts/AvenirNext/AvenirNextLTPro-Regular.ttf') format('truetype'),
+    url('/assets/fonts/AvenirNext/AvenirNextLTPro-Regular.svg#AvenirNextLTPro-Regular') format('svg');
+}
+
+@font-face {
+    font-weight: 400;
+    font-family: 'spesia';
+    font-style: italic;
+    src: local('spesia Italic'),
+    local('AvenirNextLTProItalic'),
+    url('/assets/fonts/AvenirNext/AvenirNextLTPro-Italic.eot?#iefix') format('embedded-opentype'),
+    url('/assets/fonts/AvenirNext/AvenirNextLTPro-Italic.woff2') format('woff2'),
+    url('/assets/fonts/AvenirNext/AvenirNextLTPro-Italic.woff') format('woff'),
+    url('/assets/fonts/AvenirNext/AvenirNextLTPro-Italic.ttf') format('truetype'),
+    url('/assets/fonts/AvenirNext/AvenirNextLTPro-Italic.svg#AvenirNextLTPro-Italic') format('svg');
+}
+
+@font-face {
+    font-weight: 500;
+    font-family: 'spesia';
+    font-style: normal;
+    src: local('spesia Medium'),
+    local('AvenirNextLTProMedium'),
+    url('/assets/fonts/AvenirNext/AvenirNextLTPro-Medium.eot?#iefix') format('embedded-opentype'),
+    url('/assets/fonts/AvenirNext/AvenirNextLTPro-Medium.woff2') format('woff2'),
+    url('/assets/fonts/AvenirNext/AvenirNextLTPro-Medium.woff') format('woff'),
+    url('/assets/fonts/AvenirNext/AvenirNextLTPro-Medium.ttf') format('truetype'),
+    url('/assets/fonts/AvenirNext/AvenirNextLTPro-Medium.svg#AvenirNextLTPro-Medium') format('svg');
+}
+
+@font-face {
+    font-weight: 500;
+    font-family: 'spesia';
+    font-style: italic;
+    src: local('spesia Medium Italic'),
+    local('AvenirNextLTProMediumItalic'),
+    url('/assets/fonts/AvenirNext/AvenirNextLTPro-MediumItalic.eot?#iefix') format('embedded-opentype'),
+    url('/assets/fonts/AvenirNext/AvenirNextLTPro-MediumItalic.woff2') format('woff2'),
+    url('/assets/fonts/AvenirNext/AvenirNextLTPro-MediumItalic.woff') format('woff'),
+    url('/assets/fonts/AvenirNext/AvenirNextLTPro-MediumItalic.ttf') format('truetype'),
+    url('/assets/fonts/AvenirNext/AvenirNextLTPro-MediumItalic.svg#AvenirNextLTPro-MediumItalic') format('svg');
+}
+
+@font-face {
+    font-weight: 600;
+    font-family: 'spesia';
+    font-style: normal;
+    src: local('spesia Demi'),
+    local('AvenirNextLTProDemi'),
+    url('/assets/fonts/AvenirNext/AvenirNextLTPro-Demi.eot?#iefix') format('embedded-opentype'),
+    url('/assets/fonts/AvenirNext/AvenirNextLTPro-Demi.woff2') format('woff2'),
+    url('/assets/fonts/AvenirNext/AvenirNextLTPro-Demi.woff') format('woff'),
+    url('/assets/fonts/AvenirNext/AvenirNextLTPro-Demi.ttf') format('truetype'),
+    url('/assets/fonts/AvenirNext/AvenirNextLTPro-Demi.svg#AvenirNextLTPro-Demi') format('svg');
+}
+
+@font-face {
+    font-weight: 700;
+    font-family: 'spesia';
+    font-style: normal;
+    src: local('spesia Bold'),
+    local('AvenirNextLTProBold'),
+    url('/assets/fonts/AvenirNext/AvenirNextLTPro-Bold.eot?#iefix') format('embedded-opentype'),
+    url('/assets/fonts/AvenirNext/AvenirNextLTPro-Bold.woff2') format('woff2'),
+    url('/assets/fonts/AvenirNext/AvenirNextLTPro-Bold.woff') format('woff'),
+    url('/assets/fonts/AvenirNext/AvenirNextLTPro-Bold.ttf') format('truetype'),
+    url('/assets/fonts/AvenirNext/AvenirNextLTPro-Bold.svg#AvenirNextLTPro-Bold') format('svg');
+}
+
+@font-face {
+    font-weight: 800;
+    font-family: 'spesia';
+    font-style: normal;
+    src: local('spesia Heavy'),
+    local('AvenirNextLTProHeavy'),
+    url('/assets/fonts/AvenirNext/AvenirNextLTPro-Heavy.eot?#iefix') format('embedded-opentype'),
+    url('/assets/fonts/AvenirNext/AvenirNextLTPro-Heavy.woff2') format('woff2'),
+    url('/assets/fonts/AvenirNext/AvenirNextLTPro-Heavy.woff') format('woff'),
+    url('/assets/fonts/AvenirNext/AvenirNextLTPro-Heavy.ttf') format('truetype'),
+    url('/assets/fonts/AvenirNext/AvenirNextLTPro-Heavy.svg#AvenirNextLTPro-Heavy') format('svg');
+}

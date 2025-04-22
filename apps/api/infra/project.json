@@ -1,0 +1,49 @@
+{
+    "name": "infra",
+    "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+    "sourceRoot": "apps/api/infra/src",
+    "projectType": "application",
+    "targets": {
+        "build": {
+            "executor": "@nx/webpack:webpack",
+            "outputs": ["{options.outputPath}"],
+            "defaultConfiguration": "production",
+            "options": {
+                "target": "node",
+                "compiler": "tsc",
+                "outputPath": "dist/apps/api/infra",
+                "main": "apps/api/infra/src/main.ts",
+                "tsConfig": "apps/api/infra/tsconfig.app.json",
+                "webpackConfig": "apps/api/infra/webpack.config.js"
+            },
+            "configurations": {
+                "development": {
+                    "optimization": false,
+                    "extractLicenses": false,
+                    "inspection": true
+                },
+                "production": {
+                    "optimization": true,
+                    "extractLicenses": true,
+                    "inspection": false
+                }
+            }
+        },
+        "serve": {
+            "executor": "@nx/js:node",
+            "defaultConfiguration": "development",
+            "options": {
+                "buildTarget": "infra:build",
+                "inspect": false
+            },
+            "configurations": {
+                "development": {
+                    "buildTarget": "infra:build:development"
+                },
+                "production": {
+                    "buildTarget": "infra:build:production"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+        "rootDir": ".",
+        "sourceMap": true,
+        "declaration": false,
+        "moduleResolution": "node",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "importHelpers": true,
+        "target": "es2021",
+        "module": "esnext",
+        "lib": ["es2015", "es2016", "es2017", "es2021"],
+        "skipLibCheck": true,
+        "skipDefaultLibCheck": true,
+        "strictPropertyInitialization": false,
+        "baseUrl": ".",
+        "paths": {
+            "@spesia/api-shared": ["libs/api-shared/src/index.ts"],
+            "@spesia/common": ["libs/common/src/index.ts"],
+            "@spesia/data-access": ["libs/data-access/src/index.ts"],
+            "@spesia/i18n-shared": ["libs/i18n-shared/src/index.ts"],
+            "@spesia/migrations": ["migrations/index.ts"]
+        }
+    },
+    "exclude": ["node_modules", "tmp"]
+}

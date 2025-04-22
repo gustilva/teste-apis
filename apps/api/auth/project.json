@@ -1,0 +1,50 @@
+{
+    "name": "auth",
+    "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+    "sourceRoot": "apps/api/auth/src",
+    "projectType": "application",
+    "targets": {
+        "build": {
+            "executor": "@nx/webpack:webpack",
+            "outputs": ["{options.outputPath}"],
+            "defaultConfiguration": "production",
+            "options": {
+                "target": "node",
+                "compiler": "tsc",
+                "outputPath": "dist/apps/api/auth",
+                "main": "apps/api/auth/src/main.ts",
+                "tsConfig": "apps/api/auth/tsconfig.app.json",
+                "webpackConfig": "apps/api/auth/webpack.config.js",
+                "verbose": true
+            },
+            "configurations": {
+                "development": {
+                    "optimization": false,
+                    "extractLicenses": false,
+                    "inspection": true
+                },
+                "production": {
+                    "optimization": true,
+                    "extractLicenses": true,
+                    "inspection": false
+                }
+            }
+        },
+        "serve": {
+            "executor": "@nx/js:node",
+            "defaultConfiguration": "development",
+            "options": {
+                "buildTarget": "auth:build",
+                "inspect": false
+            },
+            "configurations": {
+                "development": {
+                    "buildTarget": "auth:build:development"
+                },
+                "production": {
+                    "buildTarget": "auth:build:production"
+                }
+            }
+        }
+    }
+}

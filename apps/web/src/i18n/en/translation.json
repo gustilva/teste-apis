@@ -1,0 +1,37 @@
+{
+    "welcome": "Welcome",
+    "logout": "Logout",
+    "login": {
+        "title": "Login",
+        "email": "Email",
+        "password": "Password",
+        "submit": "Login",
+        "failed": "Login failed",
+        "forgotPassword": {
+            "title": "Forgot Password",
+            "body": "Enter your email address and we will send you a link to reset your password.",
+            "button": "Send Reset Link",
+            "buttonBack": "Back to Login",
+            "success": {
+                "title": "Check your email",
+                "message": "We've sent you a password reset link. Please check your email."
+            },
+            "invalidResetLink":{
+                "title": "Invalid Reset Link",
+                "message": "The password reset link is invalid or has expired. Please request a new one.",
+                "buttonRequest": "Request New Link"
+            }
+        }
+    },
+    "home": {
+        "title": "Home"
+    },
+    "unauthorized": {
+        "title": "Unauthorized",
+        "message": "You don’t have permission to access this page."
+    },
+    "admin": {
+        "title": "Admin Dashboard",
+        "message": "Only admins can see this."
+    }
+}

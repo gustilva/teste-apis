@@ -1,0 +1,50 @@
+{
+    "name": "api-gateway",
+    "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+    "sourceRoot": "apps/api/api-gateway/src",
+    "projectType": "application",
+    "targets": {
+        "build": {
+            "executor": "@nx/webpack:webpack",
+            "outputs": ["{options.outputPath}"],
+            "defaultConfiguration": "production",
+            "options": {
+                "target": "node",
+                "compiler": "tsc",
+                "outputPath": "dist/apps/api/api-gateway",
+                "main": "apps/api/api-gateway/src/main.ts",
+                "tsConfig": "apps/api/api-gateway/tsconfig.app.json",
+                "assets": ["apps/api/api-gateway/src/assets"],
+                "webpackConfig": "apps/api/api-gateway/webpack.config.js"
+            },
+            "configurations": {
+                "development": {
+                    "optimization": false,
+                    "extractLicenses": false,
+                    "inspection": true
+                },
+                "production": {
+                    "optimization": true,
+                    "extractLicenses": true,
+                    "inspection": false
+                }
+            }
+        },
+        "serve": {
+            "executor": "@nx/js:node",
+            "defaultConfiguration": "development",
+            "options": {
+                "buildTarget": "api-gateway:build",
+                "inspect": false
+            },
+            "configurations": {
+                "development": {
+                    "buildTarget": "api-gateway:build:development"
+                },
+                "production": {
+                    "buildTarget": "api-gateway:build:production"
+                }
+            }
+        }
+    }
+}
